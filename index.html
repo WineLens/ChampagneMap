@@ -1,54 +1,41 @@
 <!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Explorez les terroirs, régions et communes viticoles de Champagne avec WineLens.">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Explorez les terroirs, cépages et producteurs de Champagne avec WineLens.">
   <title>WineLens — Champagne Map</title>
-  <link rel="preconnect" href="https://unpkg.com">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <div class="app-shell">
-    <header class="topbar">
-      <a class="brand" href="./" aria-label="WineLens Champagne Map">
-        <span class="brand-mark">W</span>
-        <span><strong>WineLens</strong><small>Champagne Map</small></span>
-      </a>
-      <div class="search-wrap">
-        <label class="sr-only" for="mapSearch">Rechercher une commune</label>
-        <input id="mapSearch" type="search" placeholder="Rechercher une commune…" autocomplete="off">
-        <div id="searchResults" class="search-results" hidden></div>
-      </div>
-      <button id="resetMap" class="ghost-button" type="button">Vue Champagne</button>
-    </header>
-
-    <main class="workspace">
-      <section class="map-panel" aria-label="Carte des terroirs de Champagne">
-        <div id="map"></div>
-        <div class="map-hint">Survolez pour découvrir · Cliquez pour sélectionner</div>
-      </section>
-
-      <aside class="info-panel" id="infoPanel">
-        <div class="eyebrow" id="zoneKind">CHAMPAGNE</div>
-        <h1 id="typeOfZone">Explorez les terroirs</h1>
-        <p class="lead" id="f3">Zoomez ou sélectionnez une zone sur la carte pour afficher ses informations.</p>
-        <div class="divider"></div>
-        <div class="detail-grid">
-          <div><span>Zone</span><strong id="f1">—</strong></div>
-          <div><span>Code</span><strong id="f2">—</strong></div>
-        </div>
-        <div id="legacyCards" class="legacy-cards">
-          <article id="exemple-1"><a id="link1"></a><p id="text1"></p></article>
-          <article id="exemple-2"><a id="link2"></a><p id="text2"></p></article>
-          <article id="exemple-3"><a id="link3"></a><p id="text3"></p></article>
-        </div>
-        <p class="panel-note">Les informations disponibles dépendent des données actuellement renseignées dans la carte.</p>
-      </aside>
-    </main>
-  </div>
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="./script.js"></script>
-</body>
-</html>
+<div class="app-shell">
+<header class="topbar">
+  <a class="brand" href="./"><span class="brand-mark">W</span><span><strong>WineLens</strong><small>Champagne Map</small></span></a>
+  <div class="search-wrap"><input id="mapSearch" type="search" placeholder="Search a village or region…" autocomplete="off"><div id="searchResults" class="search-results" hidden></div></div>
+  <button id="resetMap" class="ghost-button" type="button">Champagne overview</button>
+</header>
+<main class="workspace">
+  <section class="map-panel"><div id="map"></div><div class="map-hint">Hover to explore · Click to select</div></section>
+  <aside class="cards-panel">
+    <article class="info-card identity-card">
+      <div class="card-icon">01</div><div class="card-label" id="zoneKind">REGION / VILLAGE</div>
+      <h1 id="typeOfZone">Explore Champagne</h1>
+      <div class="meta-row"><span id="f1">Wine region</span><span id="f2">—</span></div>
+      <p id="f3">Select a region or zoom into the map to discover a Champagne village.</p>
+    </article>
+    <article class="info-card grapes-card">
+      <div class="card-head"><div><div class="card-icon">02</div><div class="card-label">GRAPE VARIETIES</div></div><span class="card-symbol">◌</span></div>
+      <div id="grapeContent" class="card-content"><p class="empty-copy">Select a region or village to display its grape information.</p></div>
+      <div id="exemple-2" class="legacy-data"><p id="text2"></p><a id="link2"></a></div>
+    </article>
+    <article class="info-card producers-card">
+      <div class="card-head"><div><div class="card-icon">03</div><div class="card-label">PRODUCERS</div></div><span class="card-symbol">↗</span></div>
+      <div id="producerContent" class="card-content"><p class="empty-copy">Producer profiles will appear here as the database is enriched.</p></div>
+      <div id="exemple-1" class="legacy-data"><p id="text1"></p><a id="link1"></a></div>
+      <div id="exemple-3" class="legacy-data"><p id="text3"></p><a id="link3"></a></div>
+    </article>
+  </aside>
+</main>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script src="./script.js"></script>
+</body></html>
