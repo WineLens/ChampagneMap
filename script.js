@@ -1948,18 +1948,45 @@ fieldText3.innerHTML=selected.feature.properties.activity3;
   communeIndex.forEach(item=>{if(!unique.has(item.name)) unique.set(item.name,item)});
   const communes=[...unique.values()].sort((a,b)=>a.name.localeCompare(b.name,'fr'));
 
-  function showFeature(feature, layer){
+  
+  // Commune card enrichment: original WineLens copy based on cross-checked
+  // Champagne geographic data. Geometry remains untouched.
+  const communeFacts={"Ambonnay":["Grande Montagne de Reims",19,0,81],"Beaumont-sur-Vesle":["Grande Montagne de Reims",15,1,84],"Bouzy":["Grande Montagne de Reims",12,0,87],"Chigny-les-Roses":["Grande Montagne de Reims",18,58,24],"Cormontreuil":["Grande Montagne de Reims",50,0,50],"Ludes":["Grande Montagne de Reims",17,52,31],"Montbré":["Grande Montagne de Reims",12,40,48],"Rilly-la-Montagne":["Grande Montagne de Reims",24,37,39],"Taissy":["Grande Montagne de Reims",38,36,26],"Trois-Puits":["Grande Montagne de Reims",9,59,32],"Villers-Allerand":["Grande Montagne de Reims",18,52,30],"Mailly-Champagne":["Grande Montagne de Reims",9,3,88],"Puisieulx":["Grande Montagne de Reims",32,14,53],"Sillery":["Grande Montagne de Reims",57,9,33],"Verzenay":["Grande Montagne de Reims",14,1,86],"Verzy":["Grande Montagne de Reims",22,1,77],"Billy-le-Grand":["Grande Montagne de Reims",65,0,35],"Trépail":["Grande Montagne de Reims",90,0,9],"Vaudemange":["Grande Montagne de Reims",83,0,17],"Villers-Marmery":["Grande Montagne de Reims",98,0,2],"Avize":["Côte des Blancs",100,0,0],"Bergères-lès-Vertus":["Côte des Blancs",97,0,2],"Chouilly":["Côte des Blancs",99,0,1],"Cramant":["Côte des Blancs",100,0,0],"Cuis":["Côte des Blancs",96,4,0],"Grauves":["Côte des Blancs",91,8,2],"Le Mesnil-sur-Oger":["Côte des Blancs",100,0,0],"Mesnil-sur-Oger":["Côte des Blancs",100,0,0],"Oger":["Côte des Blancs",100,0,0],"Oiry":["Côte des Blancs",99,1,0],"Val-des-Marais":["Côte des Blancs",100,0,0],"Vertus":["Côte des Blancs",91,0,9],"Villeneuve-Renneville-Chevigny":["Côte des Blancs",99,0,1],"Voipreux":["Côte des Blancs",99,0,1],"Brimont":["Massif de Saint-Thierry",5,82,13],"Cauroy-lès-Hermonville":["Massif de Saint-Thierry",0,99,1],"Châlons-sur-Vesle":["Massif de Saint-Thierry",0,0,100],"Chenay":["Massif de Saint-Thierry",15,20,65],"Cormicy":["Massif de Saint-Thierry",21,36,43],"Hermonville":["Massif de Saint-Thierry",14,62,24],"Merfy":["Massif de Saint-Thierry",34,46,20],"Montigny-sur-Vesle":["Massif de Saint-Thierry",14,45,41],"Pévy":["Massif de Saint-Thierry",12,58,30],"Pouillon":["Massif de Saint-Thierry",17,71,12],"Prouilly":["Massif de Saint-Thierry",10,61,29],"Saint-Thierry":["Massif de Saint-Thierry",20,47,33],"Thil":["Massif de Saint-Thierry",27,60,13],"Trigny":["Massif de Saint-Thierry",15,50,35],"Villers-Franqueux":["Massif de Saint-Thierry",9,84,8],"Berru":["Monts de Berru",83,14,3],"Cernay-lès-Reims":["Monts de Berru",94,3,2],"Nogent-l'Abbesse":["Monts de Berru",99,0,1],"Pontfaverger-Moronvilliers":["Monts de Berru",100,0,0],"Selles":["Monts de Berru",6,94,0],"Allemant":["Sézannais",59,7,34],"Barbonne-Fayel":["Sézannais",70,1,29],"Bethon":["Sézannais",92,0,4],"Broyes":["Sézannais",63,15,22],"Chantemerle":["Sézannais",92,0,8],"Fontaine-Denis-Nuisy":["Sézannais",67,1,32],"La Celle-sous-Chantemerle":["Sézannais",80,0,20],"Montgenost":["Sézannais",94,1,5],"Saudoy":["Sézannais",94,0,6],"Sézanne":["Sézannais",66,18,15],"Villenauxe-la-Grande":["Sézannais",82,0,18],"Vindey":["Sézannais",84,1,15],"Baye":["Val du Petit Morin",3,81,15],"Beaunay":["Val du Petit Morin",32,57,10],"Bergères-sous-Montmirail":["Val du Petit Morin",10,59,31],"Broussy-le-Grand":["Val du Petit Morin",73,27,0],"Coizard-Joches":["Val du Petit Morin",54,44,2],"Congy":["Val du Petit Morin",28,50,22],"Courjeonnet":["Val du Petit Morin",59,40,1],"Étoges":["Val du Petit Morin",39,45,15],"Étréchy":["Val du Petit Morin",100,0,0],"Fèrebrianges":["Val du Petit Morin",44,43,13],"Givry-lès-Loisy":["Val du Petit Morin",20,62,18],"Loisy-en-Brie":["Val du Petit Morin",32,59,9],"Mondement-Montgivroux":["Val du Petit Morin",13,57,30],"Oyes":["Val du Petit Morin",20,56,23],"Soulières":["Val du Petit Morin",83,15,2],"Talus-Saint-Prix":["Val du Petit Morin",5,69,26],"Vert-Toulon":["Val du Petit Morin",44,43,13],"Villevenard":["Val du Petit Morin",37,53,10],"Bertignolles":["Barséquanais",3,1,96],"Buxières-sur-Arce":["Barséquanais",18,0,81],"Chacenay":["Barséquanais",3,0,96],"Chervey":["Barséquanais",10,1,89],"Éguilly-sous-Bois":["Barséquanais",4,0,96],"Merrey-sur-Arce":["Barséquanais",11,4,82],"Saint-Usage":["Barséquanais",6,0,93],"Ville-sur-Arce":["Barséquanais",7,2,90],"Vitry-le-Croisé":["Barséquanais",3,0,96],"Balnot-sur-Laignes":["Barséquanais",7,1,91],"Les Riceys":["Barséquanais",6,1,92],"Polisy":["Barséquanais",11,2,84],"Celles-sur-Ource":["Barséquanais",11,2,82],"Cunfin":["Barséquanais",3,2,95],"Essoyes":["Barséquanais",11,2,86],"Fontette":["Barséquanais",9,1,88],"Landreville":["Barséquanais",13,3,82],"Loches-sur-Ource":["Barséquanais",12,2,85],"Noé-les-Mallets":["Barséquanais",9,0,89],"Verpillières-sur-Ource":["Barséquanais",6,1,92],"Viviers-sur-Artaut":["Barséquanais",10,14,76],"Avirey-Lingey":["Barséquanais",8,1,90],"Bagneux-la-Fosse":["Barséquanais",4,0,96],"Bragelogne-Beauvoir":["Barséquanais",3,0,96],"Channes":["Barséquanais",3,0,97],"Bar-sur-Seine":["Barséquanais",20,2,74],"Buxeuil":["Barséquanais",15,1,80],"Courteron":["Barséquanais",10,1,89],"Gyé-sur-Seine":["Barséquanais",10,1,88],"Mussy-sur-Seine":["Barséquanais",3,0,97],"Neuville-sur-Seine":["Barséquanais",12,3,84],"Plaines-Saint-Lange":["Barséquanais",13,0,87],"Polisot":["Barséquanais",9,2,89]};
+  function communeCard(name){
+    const d=communeFacts[name]; if(!d)return null;
+    const [area,ch,pm,pn]=d;
+    const grapes={"Chardonnay":ch,"Meunier":pm,"Pinot Noir":pn};
+    const dominant=[["Chardonnay",ch],["Meunier",pm],["Pinot Noir",pn]].sort((a,b)=>b[1]-a[1])[0];
+    const areaText={
+      "Grande Montagne de Reims":"Située dans la Grande Montagne de Reims, cette commune appartient à un secteur où l'exposition des coteaux fait fortement varier l'équilibre entre cépages. ",
+      "Côte des Blancs":"Au cœur de la Côte des Blancs, cette commune s'inscrit dans le grand ruban crayeux au sud d'Épernay, particulièrement favorable au Chardonnay. ",
+      "Massif de Saint-Thierry":"Au nord-ouest de Reims, cette commune fait partie du Massif de Saint-Thierry, un vignoble de coteaux doux réparti autour des reliefs boisés. ",
+      "Monts de Berru":"À l'est de Reims, cette commune appartient aux Monts de Berru, un petit vignoble isolé autour d'une butte crayeuse où le Chardonnay occupe une place majeure. ",
+      "Sézannais":"Cette commune appartient au Sézannais, prolongement méridional du vignoble champenois où les coteaux souvent bien exposés donnent au Chardonnay une expression généralement plus mûre et fruitée. ",
+      "Val du Petit Morin":"Cette commune se trouve dans le Val du Petit Morin, secteur de transition où Chardonnay et Meunier se partagent une grande partie du vignoble et où les profils varient sensiblement d'un coteau à l'autre. ",
+      "Barséquanais":"Cette commune se situe dans le Barséquanais, au sud de la Champagne. Les coteaux découpés des vallées de l'Aube reposent largement sur des terrains argilo-calcaires et sont très fortement marqués par le Pinot Noir. "
+    }[area]||"Commune viticole de Champagne. ";
+    let balance=dominant[1]>=90
+      ? dominant[0]+" domine presque entièrement l'encépagement local."
+      : dominant[1]>=70
+      ? "L'encépagement est nettement dominé par le "+dominant[0]+", les autres cépages jouant un rôle plus secondaire."
+      : "L'encépagement est plus partagé, avec le "+dominant[0]+" en tête mais une présence significative d'autres cépages.";
+    return {info:areaText+balance,grapes};
+  }
+
+function showFeature(feature, layer){
     const p=feature.properties||{};
     const name=p.name||p.nom||'Zone viticole';
+    const communeData=communeCard(name);
     zoneKind.textContent=p.code?'COMMUNE':'TERROIR DE CHAMPAGNE';
     zoneName.textContent=name;
-    info.textContent=p.info||'Commune viticole de l’appellation Champagne. Des informations détaillées pourront être ajoutées à cette fiche.';
+    info.textContent=(communeData&&communeData.info)||p.info||'Commune viticole de l’appellation Champagne. Des informations détaillées pourront être ajoutées à cette fiche.';
     zoneField.textContent=p.code?'Commune':'Région viticole';
     codeField.textContent=p.code||'—';
 
     const grapeContent=document.getElementById('grapeContent');
     const producerContent=document.getElementById('producerContent');
-    const grapeText=p.grapes||p.activity2||'';
+    const grapeText=(communeData&&communeData.grapes)||p.grapes||p.activity2||'';
     const producers=p.producers||[];
 
     if(grapeContent){
