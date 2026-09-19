@@ -565,6 +565,70 @@ var regionMontagneDeReims = {
     ]]
   }
 }
+
+// Build the low-zoom Montagne de Reims outline from real commune geometries.
+// A concave hull keeps the silhouette close to the villages instead of looking hand-drawn.
+(function buildMontagneDeReimsEnvelope(){
+  var sourceCollections=[
+    typeof grandeMontagnedereimsGeo!=="undefined" ? grandeMontagnedereimsGeo : null,
+    typeof saintThierryGeo!=="undefined" ? saintThierryGeo : null,
+    typeof montDeBerruGeo!=="undefined" ? montDeBerruGeo : null,
+    typeof velseEtArdreGeo!=="undefined" ? velseEtArdreGeo : null
+  ].filter(Boolean);
+
+  var officialNames=new Set([
+    "Ambonnay","Beaumont-sur-Vesle","Billy-le-Grand","Bouzy","Chigny-les-Roses","Louvois","Ludes","Mailly-Champagne","Montbré","Puisieulx","Rilly-la-Montagne","Sillery","Taissy","Tauxières-Mutry","Trépail","Trois-Puits","Vaudemange","Verzenay","Verzy","Villers-Allerand","Villers-Marmery",
+    "Bezannes","Bouilly","Brimont","Cauroy-lès-Hermonville","Chalons-sur-Vesle","Châlons-sur-Vesle","Chenay","Cormicy","Hermonville","Merfy","Montigny-sur-Vesle","Pévy","Pouillon","Prouilly","Saint-Thierry","Thil","Trigny","Villers-Franqueux",
+    "Berru","Cernay-lès-Reims","Cernay-les-Reims","Nogent-l'Abbesse","Pontfaverger-Moronvilliers","Selles",
+    "Arcis-le-Ponsart","Aubilly","Bligny","Bligny (Marne)","Bouleuse","Branscourt","Brouillet","Chambrecy","Chamery","Chaumuzy","Cormontreuil","Coulommes-la-Montagne","Courcelles-Sapicourt","Courmas","Courtagnon","Courville","Crugny","Écueil","Ecueil","Faverolles-et-Coëmy","Germigny","Gueux","Hourges","Janvry","Jonchery-sur-Vesle","Jouy-les-Reims","Lagery","Les Mesneux","Mesneux","Lhéry","Marfaux","Méry-Prémecy","Nanteuil-la-Forêt","Ormes","Pargny-lès-Reims","Poilly","Pourcy","Reims","Rosnay","Sacy","Saint-Euphraise-et-Clairizet","Saint-Gilles","Sarcy","Savigny-sur-Ardre","Sermiers","Serzy-et-Prin","Tramery","Treslon","Unchair","Vandeuil","Ville-Dommange","Ville-en-Tardenois","Villers-aux-Nœuds","Vrigny"
+  ]);
+
+  function norm(v){return (v||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();}
+  var wanted=new Set(Array.from(officialNames).map(norm));
+  var pts=[],seen=new Set();
+  sourceCollections.forEach(function(fc){
+    (fc.features||[]).forEach(function(feature){
+      var p=feature.properties||{}, name=p.nom||p.name||"";
+      if(!wanted.has(norm(name))) return;
+      var g=feature.geometry||{}, rings=g.type==="Polygon"?g.coordinates:(g.type==="MultiPolygon"?g.coordinates.flat():[]);
+      rings.forEach(function(ring){(ring||[]).forEach(function(pt){
+        var key=pt[0].toFixed(5)+","+pt[1].toFixed(5);
+        if(!seen.has(key)){seen.add(key);pts.push([pt[0],pt[1]])}
+      })});
+    });
+  });
+  if(pts.length<3) return;
+
+  // Monotone-chain convex hull is deliberately deterministic and smooth.
+  // Pull long empty edges inward with nearby real boundary points to create a cleaner concave-looking envelope.
+  pts.sort(function(a,b){return a[0]-b[0]||a[1]-b[1]});
+  function cross(o,a,b){return (a[0]-o[0])*(b[1]-o[1])-(a[1]-o[1])*(b[0]-o[0])}
+  var lower=[],upper=[];
+  pts.forEach(function(p){while(lower.length>=2&&cross(lower[lower.length-2],lower[lower.length-1],p)<=0)lower.pop();lower.push(p)});
+  for(var i=pts.length-1;i>=0;i--){var p=pts[i];while(upper.length>=2&&cross(upper[upper.length-2],upper[upper.length-1],p)<=0)upper.pop();upper.push(p)}
+  var hull=lower.slice(0,-1).concat(upper.slice(0,-1));
+
+  function dist2(a,b){var dx=a[0]-b[0],dy=a[1]-b[1];return dx*dx+dy*dy}
+  var refined=[];
+  hull.forEach(function(a,i){
+    var b=hull[(i+1)%hull.length]; refined.push(a);
+    if(dist2(a,b)<0.006*0.006) return;
+    var mx=(a[0]+b[0])/2,my=(a[1]+b[1])/2,best=null,bestScore=Infinity;
+    pts.forEach(function(q){
+      var t=((q[0]-a[0])*(b[0]-a[0])+(q[1]-a[1])*(b[1]-a[1]))/(dist2(a,b)||1);
+      if(t<.18||t>.82)return;
+      var px=a[0]+t*(b[0]-a[0]),py=a[1]+t*(b[1]-a[1]);
+      var d=(q[0]-px)*(q[0]-px)+(q[1]-py)*(q[1]-py);
+      if(d<bestScore){bestScore=d;best=q}
+    });
+    if(best&&bestScore<0.018*0.018) refined.push(best);
+  });
+  refined.push(refined[0]);
+  regionMontagneDeReims.geometry={type:"Polygon",coordinates:[refined]};
+  regionMontagneDeReims.properties.name="Montagne de Reims";
+  regionMontagneDeReims.properties.info="Regional outline generated from the commune boundaries of Grande Montagne, Massif de Saint-Thierry, Monts de Berru and Vesle & Ardre.";
+})();
+
 L.geoJSON(regionMontagneDeReims, { 
   onEachFeature: onEachFeature}).addTo(map); 
 
