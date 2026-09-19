@@ -1966,35 +1966,58 @@ fieldText3.innerHTML=selected.feature.properties.activity3;
     "étampes-sur-Marne":"Étampes-sur-Marne",
     "OEuilly":"Œuilly"
   };
+  const villageSpecifics={
+    "Aÿ-Champagne":"Aÿ est l'un des grands bourgs historiques du négoce champenois. Son patrimoine viticole se lit encore dans les maisons, cours et caves qui accompagnent les coteaux dominant la Marne.",
+    "Hautvillers":"Le village est indissociable de l'abbaye bénédictine où vécut Dom Pierre Pérignon. Ses rues en pente et leurs nombreuses enseignes en fer forgé en font aussi l'un des villages les plus reconnaissables du vignoble.",
+    "Bouzy":"Bouzy possède une tradition particulière de vin rouge tranquille, aujourd'hui protégée sous l'appellation Coteaux Champenois Bouzy. Le village reste fortement marqué par une multitude de domaines familiaux.",
+    "Ambonnay":"Ambonnay est un village de vignerons installé au pied du versant sud de la Montagne de Reims. Sa réputation s'est construite autant sur ses raisins de Pinot Noir que sur ses nombreux récoltants-manipulants.",
+    "Verzenay":"Le phare de Verzenay, construit au début du XXe siècle au milieu des vignes, est devenu l'un des symboles les plus inattendus de la Champagne. Il abrite aujourd'hui le Musée de la Vigne.",
+    "Verzy":"Verzy se trouve à proximité immédiate des Faux de Verzy, célèbres hêtres tortillards de la forêt de la Montagne de Reims. Cette singularité naturelle donne au village une identité qui dépasse largement le seul vignoble.",
+    "Mailly-Champagne":"Le village s'étire au pied de la forêt de la Montagne de Reims et possède une longue histoire coopérative, incarnée par la maison Mailly Grand Cru fondée par des vignerons du village.",
+    "Rilly-la-Montagne":"Rilly-la-Montagne est l'un des villages les plus importants du versant nord et possède une gare sur l'axe Reims–Épernay, particularité qui a longtemps facilité les échanges au cœur du vignoble.",
+    "Chigny-les-Roses":"Le village doit son nom actuel à Louise Pommery, qui y développa une importante roseraie au XIXe siècle. L'ancienne commune de Chigny adopta officiellement le nom de Chigny-les-Roses en 1902.",
+    "Villers-Marmery":"Villers-Marmery forme avec Trépail le cœur de la « Perle Blanche », enclave de Chardonnay sur une Montagne de Reims surtout connue pour ses Pinots.",
+    "Trépail":"Trépail appartient à la « Perle Blanche », secteur singulier de la Montagne de Reims où le Chardonnay prend nettement le dessus sur le Pinot Noir.",
+    "Avize":"Avize est l'un des villages emblématiques du blanc de blancs. Son vignoble descend directement vers le bourg depuis la côte, et plusieurs grandes maisons comme des domaines familiaux y possèdent caves et pressoirs.",
+    "Cramant":"Cramant est installé sur le flanc de la Côte des Blancs face à la plaine champenoise. Le village est particulièrement associé aux Champagnes blanc de blancs issus de Chardonnay.",
+    "Le Mesnil-sur-Oger":"Le Mesnil-sur-Oger est connu pour son église Saint-Nicolas et pour le Clos Saint-Hilaire, mais surtout pour une concentration exceptionnelle de domaines spécialisés dans le Chardonnay.",
+    "Chouilly":"Chouilly touche directement Épernay et réunit deux visages : un bourg de plaine et un vaste vignoble de coteaux. Son jardin des vignes permet de découvrir de nombreux cépages champenois.",
+    "Vertus":"Ancienne ville fortifiée, Vertus conserve plusieurs traces de son passé médiéval. Elle constitue aujourd'hui le principal pôle urbain du sud de la Côte des Blancs au sein de Blancs-Coteaux.",
+    "Épernay":"Épernay est la capitale économique historique du Champagne. Sous l'avenue de Champagne et les quartiers voisins s'étend un immense réseau de caves creusées dans la craie, utilisé par de nombreuses grandes maisons.",
+    "Reims":"Reims associe patrimoine viticole et histoire de France : sa cathédrale fut le lieu traditionnel du sacre des rois, tandis que de nombreuses maisons de Champagne exploitent les crayères antiques et médiévales sous la ville.",
+    "Les Riceys":"Les Riceys réunissent trois anciens bourgs et possèdent le plus vaste vignoble communal de Champagne. C'est aussi la commune emblématique du Rosé des Riceys, vin tranquille rare élaboré à partir de Pinot Noir.",
+    "Essoyes":"Essoyes est étroitement liée à Auguste Renoir, qui y séjourna régulièrement et y est enterré. Le village associe ainsi patrimoine artistique et vignoble de la vallée de l'Ource.",
+    "Colombey les Deux églises":"Colombey-les-Deux-Églises est surtout connu comme le village de Charles de Gaulle et pour le mémorial qui domine le paysage. La vigne champenoise y constitue une activité beaucoup plus discrète.",
+    "Château-Thierry":"Château-Thierry est la principale ville de la partie occidentale de la Vallée de la Marne. Son château médiéval domine la Marne et rappelle que cette partie de la Champagne possède une identité historique distincte des villages viticoles autour de Reims et d'Épernay.",
+    "Châtillon-sur-Marne":"Une statue monumentale du pape Urbain II domine Châtillon-sur-Marne depuis les hauteurs du village. Visible de loin dans la vallée, elle est devenue l'un des repères du paysage viticole local.",
+    "Dormans":"Dormans est marqué par le Mémorial des batailles de la Marne, édifié dans le parc du château en souvenir des combats de 1914 et 1918.",
+    "Montgueux":"Montgueux forme une butte viticole isolée aux portes de Troyes. Cette position à l'écart des autres vignobles champenois lui vaut parfois le surnom de « Montrachet de Champagne » pour son affinité avec le Chardonnay.",
+    "Cumières":"Cumières s'étire directement le long de la Marne au pied des coteaux. Le village conserve une tradition de vins rouges et rosés tranquilles en plus de la production de Champagne.",
+    "Dizy":"Dizy occupe un carrefour entre Épernay, Aÿ et Hautvillers. Son territoire relie ainsi la vallée de la Marne aux premiers reliefs de la Montagne de Reims.",
+    "Mutigny":"Mutigny est perché sur un promontoire dominant la vallée de la Marne. Son belvédère offre une lecture particulièrement claire du paysage viticole autour d'Aÿ et d'Épernay.",
+    "Avenay-Val-d'Or":"Avenay-Val-d'Or est installé dans une petite vallée qui entaille la Montagne de Reims. Le bourg conserve une église médiévale et un tissu ancien étroitement imbriqué avec le vignoble.",
+    "Sillery":"Sillery a donné son nom, pendant plusieurs siècles, à des vins tranquilles de Champagne particulièrement réputés. Cette renommée historique précède largement l'essor moderne du Champagne effervescent.",
+    "Cuis":"Cuis est accroché au versant nord de la Côte des Blancs, juste au-dessus d'Épernay. Son implantation en hauteur offre une vue très ouverte sur la vallée et la plaine champenoise.",
+    "Grauves":"Grauves est installé dans une cuvette entaillant la Côte des Blancs, configuration différente des villages alignés sur le versant principal. Cette topographie donne au vignoble plusieurs orientations.",
+    "Bar-sur-Aube":"Bar-sur-Aube est un ancien centre de foires médiévales de Champagne. La ville conserve un patrimoine urbain important et sert aujourd'hui de pôle commercial à la partie orientale de la Côte des Bar.",
+    "Bar-sur-Seine":"Bar-sur-Seine fut une place importante des anciennes foires de Champagne. Son centre ancien et les vestiges de son château rappellent ce rôle historique au cœur du Barséquanais.",
+    "Sézanne":"Sézanne possède un centre ancien remarquablement conservé, avec mails plantés, maisons à pans de bois et ruelles autour de l'église Saint-Denis. Le vignoble forme une ceinture de coteaux autour de la ville.",
+    "Vitry-en-Perthois":"Vitry-en-Perthois se trouve au pied du mont de Fourche, emplacement de l'ancienne Vitry-en-Perthois détruite au XVIe siècle. La ville voisine de Vitry-le-François fut fondée après cet épisode."
+  };
   function communeCard(name){
     name=communeAliases[name]||name;
     const d=communeFacts[name]; if(!d)return null;
     const [area,ch,pm,pn]=d;
     const grapes={"Chardonnay":ch,"Meunier":pm,"Pinot Noir":pn};
-    const dominant=[["Chardonnay",ch],["Meunier",pm],["Pinot Noir",pn]].sort((a,b)=>b[1]-a[1])[0];
-    const areaText={
-      "Vitryat":"Autour de Vitry-le-François, cette commune appartient au Vitryat, îlot viticole séparé du cœur historique de la Champagne. Les coteaux calcaires et marneux y sont presque entièrement consacrés au Chardonnay. ",
-      "Bar-sur-Aubois":"Cette commune appartient au Bar-sur-Aubois, partie orientale de la Côte des Bar organisée autour de l'Aube et de ses vallées secondaires. Sur ces sols argilo-calcaires méridionaux, le Pinot Noir domine très largement. ",
-      "Vallée de la Marne Ouest":"Cette commune se situe dans la partie occidentale de la Vallée de la Marne, où les coteaux accompagnent le fleuve jusque vers les limites ouest de l'appellation. Le Meunier y joue généralement le premier rôle. ",
-      "Vallée de la Marne Rive Droite":"Installée au nord de la Marne, cette commune appartient à la rive droite de la vallée. Beaucoup de coteaux regardent vers le sud et le Meunier y constitue généralement l'ossature du vignoble. ",
-      "Vallée de la Marne Rive Gauche":"Cette commune appartient à la rive gauche de la Vallée de la Marne, sur des coteaux souvent orientés vers le nord. Le Meunier y est particulièrement bien représenté et structure l'identité viticole locale. ",
-      "Coteaux Sud d'Épernay":"Au sud d'Épernay, cette commune appartient à un vignoble de transition où Chardonnay et Meunier se côtoient sur des coteaux aux orientations variées. ",
-      "Grande Vallée de la Marne":"Dans la partie orientale de la Vallée de la Marne, cette commune profite de coteaux bien exposés, souvent tournés vers le sud. Le Pinot Noir y occupe une place particulièrement importante. ",
-      "Vesle et Ardre":"Cette commune appartient au vaste ensemble Vesle et Ardre, entre Petite Montagne de Reims et vallées secondaires. Le Meunier domine à l'échelle du terroir, mais les proportions varient fortement selon les coteaux. ",
-      "Grande Montagne de Reims":"Située dans la Grande Montagne de Reims, cette commune appartient à un secteur où l'exposition des coteaux fait fortement varier l'équilibre entre cépages. ",
-      "Côte des Blancs":"Au cœur de la Côte des Blancs, cette commune s'inscrit dans le grand ruban crayeux au sud d'Épernay, particulièrement favorable au Chardonnay. ",
-      "Massif de Saint-Thierry":"Au nord-ouest de Reims, cette commune fait partie du Massif de Saint-Thierry, un vignoble de coteaux doux réparti autour des reliefs boisés. ",
-      "Monts de Berru":"À l'est de Reims, cette commune appartient aux Monts de Berru, un petit vignoble isolé autour d'une butte crayeuse où le Chardonnay occupe une place majeure. ",
-      "Sézannais":"Cette commune appartient au Sézannais, prolongement méridional du vignoble champenois où les coteaux souvent bien exposés donnent au Chardonnay une expression généralement plus mûre et fruitée. ",
-      "Val du Petit Morin":"Cette commune se trouve dans le Val du Petit Morin, secteur de transition où Chardonnay et Meunier se partagent une grande partie du vignoble et où les profils varient sensiblement d'un coteau à l'autre. ",
-      "Barséquanais":"Cette commune se situe dans le Barséquanais, au sud de la Champagne. Les coteaux découpés des vallées de l'Aube reposent largement sur des terrains argilo-calcaires et sont très fortement marqués par le Pinot Noir. "
-    }[area]||"Commune viticole de Champagne. ";
-    let balance=dominant[1]>=90
-      ? dominant[0]+" domine presque entièrement l'encépagement local."
-      : dominant[1]>=70
-      ? "L'encépagement est nettement dominé par le "+dominant[0]+", les autres cépages jouant un rôle plus secondaire."
-      : "L'encépagement est plus partagé, avec le "+dominant[0]+" en tête mais une présence significative d'autres cépages.";
-    return {info:areaText+balance,grapes};
+    const specific=villageSpecifics[name];
+    const fallbacks=[
+      name+" appartient au terroir "+area+". Son vignoble s'inscrit dans le paysage immédiat du bourg, où l'habitat champenois et les coteaux viticoles restent étroitement liés.",
+      "À "+name+", la vigne fait partie du paysage communal autant que de son économie. Le village appartient au terroir "+area+" et offre une lecture locale de ce secteur de la Champagne.",
+      name+" est une commune viticole du terroir "+area+". Son identité tient à la proximité entre le village, les exploitations familiales et les parcelles qui structurent les coteaux alentour.",
+      "Le village de "+name+" fait partie du terroir "+area+". Ici, le vignoble accompagne directement le relief et participe fortement à l'organisation du paysage communal."
+    ];
+    let h=0; for(let i=0;i<name.length;i++)h=(h*31+name.charCodeAt(i))>>>0;
+    return {info:specific||fallbacks[h%fallbacks.length],grapes,area};
   }
 
 function showFeature(feature, layer){
@@ -2004,8 +2027,8 @@ function showFeature(feature, layer){
     zoneKind.textContent=p.code?'COMMUNE':'TERROIR DE CHAMPAGNE';
     zoneName.textContent=name;
     info.textContent=(communeData&&communeData.info)||p.info||'Commune viticole de l’appellation Champagne. Des informations détaillées pourront être ajoutées à cette fiche.';
-    zoneField.textContent=p.code?'Commune':'Région viticole';
-    codeField.textContent=p.code||'—';
+    zoneField.textContent=p.code?'Terroir':'Région viticole';
+    codeField.textContent=(communeData&&communeData.area)||'—';
 
     const grapeContent=document.getElementById('grapeContent');
     const producerContent=document.getElementById('producerContent');
