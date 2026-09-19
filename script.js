@@ -544,91 +544,332 @@ L.geoJSON(placeholder).addTo(map);
 */
 
 var regionMontagneDeReims = {
-  "type":"Feature",
-  "properties":{
-    "name":"Grande Montagne de Reims",
-    "info":"A tighter experimental outline following the Grande Montagne de Reims commune belt. It is kept as one clickable zone while avoiding the large empty areas of the previous regional polygon.",
-    "activity2":"Pinot Noir is the dominant grape across much of the Grande Montagne de Reims.",
-    "content1":"","content2":"","content3":""
-  },
-  "geometry":{
-    "type":"Polygon",
-    "coordinates":[[
-      [3.999,49.137],[4.003,49.183],[4.031,49.189],[4.030,49.199],[4.027,49.209],
-      [4.051,49.212],[4.075,49.224],[4.100,49.218],[4.118,49.211],[4.124,49.220],
-      [4.134,49.233],[4.142,49.232],[4.138,49.214],[4.154,49.204],[4.170,49.200],
-      [4.175,49.191],[4.196,49.179],[4.204,49.173],[4.184,49.158],[4.193,49.146],
-      [4.206,49.114],[4.250,49.118],[4.262,49.104],[4.278,49.086],[4.284,49.076],
-      [4.249,49.069],[4.206,49.086],[4.167,49.064],[4.154,49.071],[4.099,49.070],
-      [4.149,49.100],[4.154,49.110],[4.150,49.120],[4.133,49.123],[4.123,49.128],
-      [4.104,49.134],[4.088,49.132],[4.054,49.135],[4.030,49.140],[3.999,49.137]
-    ]]
-  }
-}
+    "type": "Feature",
+    "properties": {
+      "name":"Montagne de Reims", 
+      "info":"Des vignes exposées plein sud perchés sur des coteaux de marnes argilo-calcaires font de cette région le berceau des plus grands crus de Pinot Noirs notamment sur le flanc est de la 'montagne de Reims'. L'encépagement est plus varié sur le nord de cette région, aux alentours de Reims",
+    "content1": "url('https://placekitten.com/600/400?image=15')"},
+    "content2" :"",
+    "content3" :"",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+          [
+            [
+              3.9110759139938978,
+              49.35409118997072
+            ],
+            [
+              3.911587418044661,
+              49.353884800290416
+            ],
+            [
+              3.852746254913484,
+              49.351166845108594
+            ],
+            [
+              3.812625115888693,
+              49.351993919067525
+            ],
+            [
+              3.7792029161969936,
+              49.35081325401518
+            ],
+            [
+              3.7406053646504063,
+              49.340721759074995
+            ],
+            [
+              3.711403269789571,
+              49.33344136332161
+            ],
+            [
+              3.6720439245438,
+              49.325166879073095
+            ],
+            [
+              3.63132947358514,
+              49.294923483041174
+            ],
+            [
+              3.625229982593254,
+              49.28814659248525
+            ],
+            [
+              3.6368840102988145,
+              49.253170254054965
+            ],
+            [
+              3.690875973224479,
+              49.21035998958072
+            ],
+            [
+              3.699255704792762,
+              49.20919875184347
+            ],
+            [
+              3.710428680217973,
+              49.20687619454304
+            ],
+            [
+              3.7196327148169246,
+              49.23345344803582
+            ],
+            [
+              3.715199590910288,
+              49.22444201930895
+            ],
+            [
+              3.710293943386631,
+              49.2085122062752
+            ],
+            [
+              3.7157369180948763,
+              49.19961397187211
+            ],
+            [
+              3.731107944940561,
+              49.19897287260102
+            ],
+            [
+              3.755636172666698,
+              49.195339820533945
+            ],
+            [
+              3.770026066265814,
+              49.19042409003748
+            ],
+            [
+              3.7814512437438452,
+              49.17286163866851
+            ],
+            [
+              3.801661088898385,
+              49.17309970609685
+            ],
+            [
+              3.812767400199391,
+              49.17500420430986
+            ],
+            [
+              3.8113679303917536,
+              49.18571892276313
+            ],
+            [
+              3.812824496036029,
+              49.17499852390617
+            ],
+            [
+              3.820471464050513,
+              49.16773723070372
+            ],
+            [
+              3.8434123693610047,
+              49.17011809989586
+            ],
+            [
+              3.8646114437161145,
+              49.158263790045254
+            ],
+            [
+              3.92076643355864,
+              49.15660814108537
+            ],
+            [
+              3.9297797844066054,
+              49.15816284143506
+            ],
+            [
+              3.935722980018255,
+              49.15894017325954
+            ],
+            [
+              3.9258248498653927,
+              49.16849394835833
+            ],
+            [
+              3.9363951064583205,
+              49.15822478178086
+            ],
+            [
+              3.9493814218295995,
+              49.15368197126719
+            ],
+            [
+              3.9656898176992,
+              49.1489412029031
+            ],
+            [
+              3.980790184260684,
+              49.14005103946303
+            ],
+            [
+              4.004044748767171,
+              49.13886556382931
+            ],
+            [
+              4.0227691195365765,
+              49.13904152801902
+            ],
+            [
+              4.050553794011648,
+              49.13627531775609
+            ],
+            [
+              4.082868578455333,
+              49.134496958207166
+            ],
+            [
+              4.0988749705257135,
+              49.125999472361514
+            ],
+            [
+              4.099176977855933,
+              49.11927949777004
+            ],
+            [
+              4.094740266976629,
+              49.11152465279582
+            ],
+            [
+              4.0866173182114665,
+              49.10889552743575
+            ],
+            [
+              4.076699019314191,
+              49.10398414531841
+            ],
+            [
+              4.078763810001703,
+              49.095549805769195
+            ],
+            [
+              4.072723653677798,
+              49.086254480762165
+            ],
+            [
+              4.0663814997217,
+              49.07596826879234
+            ],
+            [
+              4.06787553540255,
+              49.05676682792938
+            ],
+            [
+              4.081163857976634,
+              49.064088911045815
+            ],
+            [
+              4.0990448720366714,
+              49.06778573496007
+            ],
+            [
+              4.123809480776828,
+              49.070753619123565
+            ],
+            [
+              4.137399812936593,
+              49.06996220071187
+            ],
+            [
+              4.167030646454066,
+              49.06253251075523
+            ],
+            [
+              4.17880893254835,
+              49.0662921979945
+            ],
+            [
+              4.195117328436794,
+              49.069655887525954
+            ],
+            [
+              4.215351820100494,
+              49.07064516465971
+            ],
+            [
+              4.227130106018819,
+              49.06767727422235
+            ],
+            [
+              4.260652919787958,
+              49.078163027003114
+            ],
+            [
+              4.256727317933752,
+              49.096489818920844
+            ],
+            [
+              4.254009251952567,
+              49.116853942645974
+            ],
+            [
+              4.2470630782455885,
+              49.13661694293492
+            ],
+            [
+              4.2470630782455885,
+              49.15637206467767
+            ],
+            [
+              4.232567020899751,
+              49.1974375399262
+            ],
+            [
+              4.218674683662158,
+              49.21361743175646
+            ],
+            [
+              4.199346214462338,
+              49.23353904666837
+            ],
+            [
+              4.1788101178701424,
+              49.25680380051716
+            ],
+            [
+              4.162803729313481,
+              49.2747376478672
+            ],
+            [
+              4.144079269446735,
+              49.290104330787074
+            ],
+            [
+              4.122938756257952,
+              49.306056970247795
+            ],
+            [
+              4.0256099353770765,
+              49.334641645994
+            ],
+            [
+              4.010738334320962,
+              49.34484437531708
+            ],
+            [
+              3.988087783463044,
+              49.342286438470865
+            ],
+            [
+              3.974497453557234,
+              49.34622167035596
+            ],
+            [
+              3.931612412519229,
+              49.35330429465756
+            ],
+            [
+              3.9110759139938978,
+              49.35409118997072
+            ]
+          ]
+        ]
+    },
+};
 
-// Build the low-zoom Montagne de Reims outline from real commune geometries.
-// A concave hull keeps the silhouette close to the villages instead of looking hand-drawn.
-(function buildMontagneDeReimsEnvelope(){
-  var sourceCollections=[
-    typeof grandeMontagnedereimsGeo!=="undefined" ? grandeMontagnedereimsGeo : null,
-    typeof saintThierryGeo!=="undefined" ? saintThierryGeo : null,
-    typeof montDeBerruGeo!=="undefined" ? montDeBerruGeo : null,
-    typeof velseEtArdreGeo!=="undefined" ? velseEtArdreGeo : null
-  ].filter(Boolean);
 
-  var officialNames=new Set([
-    "Ambonnay","Beaumont-sur-Vesle","Billy-le-Grand","Bouzy","Chigny-les-Roses","Louvois","Ludes","Mailly-Champagne","Montbré","Puisieulx","Rilly-la-Montagne","Sillery","Taissy","Tauxières-Mutry","Trépail","Trois-Puits","Vaudemange","Verzenay","Verzy","Villers-Allerand","Villers-Marmery",
-    "Bezannes","Bouilly","Brimont","Cauroy-lès-Hermonville","Chalons-sur-Vesle","Châlons-sur-Vesle","Chenay","Cormicy","Hermonville","Merfy","Montigny-sur-Vesle","Pévy","Pouillon","Prouilly","Saint-Thierry","Thil","Trigny","Villers-Franqueux",
-    "Berru","Cernay-lès-Reims","Cernay-les-Reims","Nogent-l'Abbesse","Pontfaverger-Moronvilliers","Selles",
-    "Arcis-le-Ponsart","Aubilly","Bligny","Bligny (Marne)","Bouleuse","Branscourt","Brouillet","Chambrecy","Chamery","Chaumuzy","Cormontreuil","Coulommes-la-Montagne","Courcelles-Sapicourt","Courmas","Courtagnon","Courville","Crugny","Écueil","Ecueil","Faverolles-et-Coëmy","Germigny","Gueux","Hourges","Janvry","Jonchery-sur-Vesle","Jouy-les-Reims","Lagery","Les Mesneux","Mesneux","Lhéry","Marfaux","Méry-Prémecy","Nanteuil-la-Forêt","Ormes","Pargny-lès-Reims","Poilly","Pourcy","Reims","Rosnay","Sacy","Saint-Euphraise-et-Clairizet","Saint-Gilles","Sarcy","Savigny-sur-Ardre","Sermiers","Serzy-et-Prin","Tramery","Treslon","Unchair","Vandeuil","Ville-Dommange","Ville-en-Tardenois","Villers-aux-Nœuds","Vrigny"
-  ]);
-
-  function norm(v){return (v||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();}
-  var wanted=new Set(Array.from(officialNames).map(norm));
-  var pts=[],seen=new Set();
-  sourceCollections.forEach(function(fc){
-    (fc.features||[]).forEach(function(feature){
-      var p=feature.properties||{}, name=p.nom||p.name||"";
-      if(!wanted.has(norm(name))) return;
-      var g=feature.geometry||{}, rings=g.type==="Polygon"?g.coordinates:(g.type==="MultiPolygon"?g.coordinates.flat():[]);
-      rings.forEach(function(ring){(ring||[]).forEach(function(pt){
-        var key=pt[0].toFixed(5)+","+pt[1].toFixed(5);
-        if(!seen.has(key)){seen.add(key);pts.push([pt[0],pt[1]])}
-      })});
-    });
-  });
-  if(pts.length<3) return;
-
-  // Monotone-chain convex hull is deliberately deterministic and smooth.
-  // Pull long empty edges inward with nearby real boundary points to create a cleaner concave-looking envelope.
-  pts.sort(function(a,b){return a[0]-b[0]||a[1]-b[1]});
-  function cross(o,a,b){return (a[0]-o[0])*(b[1]-o[1])-(a[1]-o[1])*(b[0]-o[0])}
-  var lower=[],upper=[];
-  pts.forEach(function(p){while(lower.length>=2&&cross(lower[lower.length-2],lower[lower.length-1],p)<=0)lower.pop();lower.push(p)});
-  for(var i=pts.length-1;i>=0;i--){var p=pts[i];while(upper.length>=2&&cross(upper[upper.length-2],upper[upper.length-1],p)<=0)upper.pop();upper.push(p)}
-  var hull=lower.slice(0,-1).concat(upper.slice(0,-1));
-
-  function dist2(a,b){var dx=a[0]-b[0],dy=a[1]-b[1];return dx*dx+dy*dy}
-  var refined=[];
-  hull.forEach(function(a,i){
-    var b=hull[(i+1)%hull.length]; refined.push(a);
-    if(dist2(a,b)<0.006*0.006) return;
-    var mx=(a[0]+b[0])/2,my=(a[1]+b[1])/2,best=null,bestScore=Infinity;
-    pts.forEach(function(q){
-      var t=((q[0]-a[0])*(b[0]-a[0])+(q[1]-a[1])*(b[1]-a[1]))/(dist2(a,b)||1);
-      if(t<.18||t>.82)return;
-      var px=a[0]+t*(b[0]-a[0]),py=a[1]+t*(b[1]-a[1]);
-      var d=(q[0]-px)*(q[0]-px)+(q[1]-py)*(q[1]-py);
-      if(d<bestScore){bestScore=d;best=q}
-    });
-    if(best&&bestScore<0.018*0.018) refined.push(best);
-  });
-  refined.push(refined[0]);
-  regionMontagneDeReims.geometry={type:"Polygon",coordinates:[refined]};
-  regionMontagneDeReims.properties.name="Montagne de Reims";
-  regionMontagneDeReims.properties.info="Regional outline generated from the commune boundaries of Grande Montagne, Massif de Saint-Thierry, Monts de Berru and Vesle & Ardre.";
-})();
-
+  
 L.geoJSON(regionMontagneDeReims, { 
   onEachFeature: onEachFeature}).addTo(map); 
 
