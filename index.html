@@ -1,80 +1,54 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - A Pen by Joris</title>
-  <link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
+<!doctype html>
+<html lang="fr">
 <head>
   <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
-     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
-     crossorigin=""/>
- <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
-     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
-     crossorigin=""></script>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Explorez les terroirs, régions et communes viticoles de Champagne avec WineLens.">
+  <title>WineLens — Champagne Map</title>
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
-<div class="container">
-<div class="header"> 
-  <div class="site-identity">
-    <h1><a href="#">Logo</a></h1>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="WineLens Champagne Map">
+        <span class="brand-mark">W</span>
+        <span><strong>WineLens</strong><small>Champagne Map</small></span>
+      </a>
+      <div class="search-wrap">
+        <label class="sr-only" for="mapSearch">Rechercher une commune</label>
+        <input id="mapSearch" type="search" placeholder="Rechercher une commune…" autocomplete="off">
+        <div id="searchResults" class="search-results" hidden></div>
+      </div>
+      <button id="resetMap" class="ghost-button" type="button">Vue Champagne</button>
+    </header>
+
+    <main class="workspace">
+      <section class="map-panel" aria-label="Carte des terroirs de Champagne">
+        <div id="map"></div>
+        <div class="map-hint">Survolez pour découvrir · Cliquez pour sélectionner</div>
+      </section>
+
+      <aside class="info-panel" id="infoPanel">
+        <div class="eyebrow" id="zoneKind">CHAMPAGNE</div>
+        <h1 id="typeOfZone">Explorez les terroirs</h1>
+        <p class="lead" id="f3">Zoomez ou sélectionnez une zone sur la carte pour afficher ses informations.</p>
+        <div class="divider"></div>
+        <div class="detail-grid">
+          <div><span>Zone</span><strong id="f1">—</strong></div>
+          <div><span>Code</span><strong id="f2">—</strong></div>
+        </div>
+        <div id="legacyCards" class="legacy-cards">
+          <article id="exemple-1"><a id="link1"></a><p id="text1"></p></article>
+          <article id="exemple-2"><a id="link2"></a><p id="text2"></p></article>
+          <article id="exemple-3"><a id="link3"></a><p id="text3"></p></article>
+        </div>
+        <p class="panel-note">Les informations disponibles dépendent des données actuellement renseignées dans la carte.</p>
+      </aside>
+    </main>
   </div>
-    <div class="selected-zone">
-    <h1 id=typeOfZone>Zone</h1>
-  </div>  
-  <nav class="site-navigation">
-    <ul class="nav">
-      <li><a href="#">About</a></li> 
-      <li><a href="#">Contact</a></li> 
-    </ul>
-  </nav>
-</div>
-
-<div class="map" id="map"></div>
-
-<div class="description"> 
-        <table>
-          <tr>
-          <th></th>
-          <td class="sideInfo" id='f1'></td>
-          </tr><tr>
-          <th></th>
-          <td class="sideInfo" id='f2'></td>
-          <th></th>
-          <td class="sideInfo" id="f3"></td>
-          </tr> </table>
-           </div>
-  
-    <div class="contenu"> 
-        <div class="exemple" id="exemple-1">
-          <a href="" id="link1"></a>
-   <p class="contentText" id="text1"> top kek </p>
-      </div>
-      <div class="exemple" id="exemple-2"> 
-        <a href="" id="link2"></a>
-   <p class="contentText" id="text2"> top kek </p>
-      </div>
-      <div class="exemple" id="exemple-3">
-        <a href="" id="link3"></a>
-   <p class="contentText" id="text3"> top kek </p>
-      </div>
-      
-  </div>
-  
-    </div>
-   
-  
-</body>
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.3/leaflet.js'></script><script  src="./script.js"></script>
-
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="./script.js"></script>
 </body>
 </html>
