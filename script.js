@@ -2004,7 +2004,7 @@ fieldText3.innerHTML=selected.feature.properties.activity3;
 let currentLang='fr';
   const uiText={
     fr:{search:'Rechercher un village ou une région…',reset:'Vue d’ensemble',hint:'Survolez pour explorer · Cliquez pour sélectionner',zone:'RÉGION / VILLAGE',explore:'Explorez la Champagne',wineRegion:'Région viticole',intro:'Sélectionnez une région ou zoomez sur la carte pour découvrir un village de Champagne.',grapes:'CÉPAGES',grapeEmpty:'Sélectionnez une région ou un village pour afficher son encépagement.',producers:'PRODUCTEURS',producerEmpty:'Les producteurs apparaîtront ici au fur et à mesure de l’enrichissement de la base.',commune:'COMMUNE',terroir:'TERROIR DE CHAMPAGNE',terroirLabel:'Terroir',regionLabel:'Région viticole',noGrapes:'Les données d’encépagement de cette zone ne sont pas encore disponibles.',noProducers:'Les producteurs de cette zone ne sont pas encore renseignés.',noResult:'Aucun résultat',vitZone:'Zone viticole',fallback:'Petit village viticole rural. Nous n’avons pas encore d’anecdote ou de particularité notable à présenter.'},
-    en:{search:'Search a village or region…',reset:'Champagne overview',hint:'Hover to explore · Click to select',zone:'REGION / VILLAGE',explore:'Explore Champagne',wineRegion:'Wine region',intro:'Select a region or zoom into the map to discover a Champagne village.',grapes:'GRAPE VARIETIES',grapeEmpty:'Select a region or village to display its grape information.',producers:'PRODUCERS',producerEmpty:'Producer profiles will appear here as the database is enriched.',commune:'COMMUNE',terroir:'CHAMPAGNE TERROIR',terroirLabel:'Terroir',regionLabel:'Wine region',noGrapes:''+t.noGrapes+'',noProducers:''+t.noProducers+'',noResult:'No results',vitZone:'Wine-growing area',fallback:'Small rural wine-growing village. We do not yet have a notable anecdote or distinctive feature to present.'}
+    en:{search:'Search a village or region…',reset:'Champagne overview',hint:'Hover to explore · Click to select',zone:'REGION / VILLAGE',explore:'Explore Champagne',wineRegion:'Wine region',intro:'Select a region or zoom into the map to discover a Champagne village.',grapes:'GRAPE VARIETIES',grapeEmpty:'Select a region or village to display its grape information.',producers:'PRODUCERS',producerEmpty:'Producer profiles will appear here as the database is enriched.',commune:'COMMUNE',terroir:'CHAMPAGNE TERROIR',terroirLabel:'Terroir',regionLabel:'Wine region',noGrapes:'Grape data for this area has not been added yet.',noProducers:'Producer data for this area has not been added yet.',noResult:'No results',vitZone:'Wine-growing area',fallback:'Small rural wine-growing village. We do not yet have a notable anecdote or distinctive feature to present.'}
   };
   const englishSpecifics={
     "Aÿ-Champagne":"Aÿ is one of Champagne’s historic wine-trading villages. Its viticultural heritage can still be seen in the houses, courtyards and cellars set beneath the slopes overlooking the Marne.",
@@ -2060,14 +2060,14 @@ function showFeature(feature, layer){
         const entries=Object.entries(grapeText);
         grapeContent.innerHTML='<div class="grape-list">'+entries.map(([grape,value])=>'<div class="grape-line"><span>'+grape+'</span><div class="grape-bar"><i style="width:'+Number(value)+'%"></i></div><strong>'+value+'%</strong></div>').join('')+'</div>';
       } else {
-        grapeContent.innerHTML='<p class="empty-copy">Grape data for this area has not been added yet.</p>';
+        grapeContent.innerHTML='<p class="empty-copy">'+t.noGrapes+'</p>';
       }
     }
     if(producerContent){
       if(Array.isArray(producers) && producers.length){
         producerContent.innerHTML='<div class="producer-list">'+producers.map(name=>'<span>'+name+'</span>').join('')+'</div>';
       } else {
-        producerContent.innerHTML='<p class="empty-copy">Producer data for this area has not been added yet.</p>';
+        producerContent.innerHTML='<p class="empty-copy">'+t.noProducers+'</p>';
       }
     }
     if(layer){
