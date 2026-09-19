@@ -1741,73 +1741,49 @@ var coteDesBarsRegion = {
 L.geoJSON(coteDesBarsRegion, { 
   onEachFeature: onEachFeature}).addTo(map);
 
-map.on('zoomend', function (e) {
-    zoom_based_layerchange();
+var regionalLayerGroup = L.layerGroup();
+var communeLayerGroup = L.layerGroup();
+
+function addGeoJSONToGroup(group, data) {
+  if (!data) return;
+  L.geoJSON(data, {
+    style: defaultStyle,
+    onEachFeature: onEachFeature
+  }).addTo(group);
+}
+
+function renderZoomLevel() {
+  var currentZoom = map.getZoom();
+
+  if (map.hasLayer(regionalLayerGroup)) map.removeLayer(regionalLayerGroup);
+  if (map.hasLayer(communeLayerGroup)) map.removeLayer(communeLayerGroup);
+  regionalLayerGroup.clearLayers();
+  communeLayerGroup.clearLayers();
+
+  if (currentZoom >= 12) {
+    [
+      blancsGeo,sezannaisGeo,morinGeo,vitryatGeo,barSurAubeGeo,
+      marneOuestGeo,riveDroiteGeo,riveGaucheGeo,sudEpernayGeo,
+      barSurSeineGeo,grandeValléeGeo,saintThierryGeo,montDeBerruGeo,
+      velseEtArdreGeo,grandeMontagnedereimsGeo
+    ].forEach(function(data){ addGeoJSONToGroup(communeLayerGroup,data); });
+    communeLayerGroup.addTo(map);
+  } else {
+    [
+      regionMontagneDeReims,coteDesBarsRegion,regionValléeDeLaMarne,
+      regionCoteDesBlancs,regionVitryat
+    ].forEach(function(data){ addGeoJSONToGroup(regionalLayerGroup,data); });
+    regionalLayerGroup.addTo(map);
+  }
+}
+
+map.on('zoomend', renderZoomLevel);
+
+// Remove the individually-created startup region layers, then rebuild them
+// through the stable layer groups above.
+map.eachLayer(function(layer){
+  if (layer instanceof L.GeoJSON) map.removeLayer(layer);
 });
-function zoom_based_layerchange() {
-    var currentZoom = map.getZoom();
-    if (currentZoom >= 12) {
-      clean_map();
-      L.geoJSON(blancsGeo, { 
-  onEachFeature: onEachFeature}).addTo(map);
-      L.geoJSON(sezannaisGeo, { 
-  onEachFeature: onEachFeature}).addTo(map);
-      L.geoJSON(morinGeo, { 
-  onEachFeature: onEachFeature}).addTo(map);
-      L.geoJSON(vitryatGeo, { 
-  onEachFeature: onEachFeature}).addTo(map);
-      L.geoJSON(barSurAubeGeo, { 
-  onEachFeature: onEachFeature}).addTo(map);
-      L.geoJSON(marneOuestGeo, { 
-  onEachFeature: onEachFeature}).addTo(map);
-      L.geoJSON(riveDroiteGeo, { 
-  onEachFeature: onEachFeature}).addTo(map);
-      L.geoJSON(riveGaucheGeo, { 
-  onEachFeature: onEachFeature}).addTo(map);
-      L.geoJSON(sudEpernayGeo, { 
-  onEachFeature: onEachFeature}).addTo(map);
-      L.geoJSON(barSurSeineGeo, { 
-  onEachFeature: onEachFeature}).addTo(map);
-      L.geoJSON(grandeValléeGeo, { 
-  onEachFeature: onEachFeature}).addTo(map);
-            L.geoJSON(saintThierryGeo, { 
-  onEachFeature: onEachFeature}).addTo(map);
-            L.geoJSON(montDeBerruGeo, { 
-  onEachFeature: onEachFeature}).addTo(map);
-            L.geoJSON(velseEtArdreGeo, { 
-  onEachFeature: onEachFeature}).addTo(map);
-      L.geoJSON(grandeMontagnedereimsGeo, { 
-  onEachFeature: onEachFeature}).addTo(map);
-    }
-  
-else if (currentZoom <= 11) {
-   clean_map();
-  L.geoJSON(regionMontagneDeReims, { 
-  onEachFeature: onEachFeature}).addTo(map);
-  L.geoJSON(coteDesBarsRegion, { 
-  onEachFeature: onEachFeature}).addTo(map);
-  L.geoJSON(regionValléeDeLaMarne, { 
-  onEachFeature: onEachFeature}).addTo(map);
-  L.geoJSON(regionCoteDesBlancs, { 
-  onEachFeature: onEachFeature}).addTo(map);
-  L.geoJSON(regionVitryat, { 
-  onEachFeature: onEachFeature}).addTo(map);
-}};
-
-function clean_map() {
-    map.eachLayer(function (layer) {
-        if (layer instanceof L.GeoJSON)
-        //Do marker specific actions here
-
-        {
-            map.removeLayer(layer);
-
-        }
-        console.log(layer);
-      
-    });
-}; 
-
 var selected = null;
 
 
@@ -1825,6 +1801,8 @@ var defaultStyle = {
   fillColor: null,
   fillOpacity: 0.2,
 }
+
+renderZoomLevel();
 
 function onEachFeature(feature, layer) {
     layer.on('mouseover', function (e) {
