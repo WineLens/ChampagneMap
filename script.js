@@ -2001,14 +2001,51 @@ fieldText3.innerHTML=selected.feature.properties.activity3;
     return {info:specific||fallback,grapes,area};
   }
 
+let currentLang='fr';
+  const uiText={
+    fr:{search:'Rechercher un village ou une région…',reset:'Vue d’ensemble',hint:'Survolez pour explorer · Cliquez pour sélectionner',zone:'RÉGION / VILLAGE',explore:'Explorez la Champagne',wineRegion:'Région viticole',intro:'Sélectionnez une région ou zoomez sur la carte pour découvrir un village de Champagne.',grapes:'CÉPAGES',grapeEmpty:'Sélectionnez une région ou un village pour afficher son encépagement.',producers:'PRODUCTEURS',producerEmpty:'Les producteurs apparaîtront ici au fur et à mesure de l’enrichissement de la base.',commune:'COMMUNE',terroir:'TERROIR DE CHAMPAGNE',terroirLabel:'Terroir',regionLabel:'Région viticole',noGrapes:'Les données d’encépagement de cette zone ne sont pas encore disponibles.',noProducers:'Les producteurs de cette zone ne sont pas encore renseignés.',noResult:'Aucun résultat',vitZone:'Zone viticole',fallback:'Petit village viticole rural. Nous n’avons pas encore d’anecdote ou de particularité notable à présenter.'},
+    en:{search:'Search a village or region…',reset:'Champagne overview',hint:'Hover to explore · Click to select',zone:'REGION / VILLAGE',explore:'Explore Champagne',wineRegion:'Wine region',intro:'Select a region or zoom into the map to discover a Champagne village.',grapes:'GRAPE VARIETIES',grapeEmpty:'Select a region or village to display its grape information.',producers:'PRODUCERS',producerEmpty:'Producer profiles will appear here as the database is enriched.',commune:'COMMUNE',terroir:'CHAMPAGNE TERROIR',terroirLabel:'Terroir',regionLabel:'Wine region',noGrapes:''+t.noGrapes+'',noProducers:''+t.noProducers+'',noResult:'No results',vitZone:'Wine-growing area',fallback:'Small rural wine-growing village. We do not yet have a notable anecdote or distinctive feature to present.'}
+  };
+  const englishSpecifics={
+    "Aÿ-Champagne":"Aÿ is one of Champagne’s historic wine-trading villages. Its viticultural heritage can still be seen in the houses, courtyards and cellars set beneath the slopes overlooking the Marne.",
+    "Hautvillers":"The village is inseparable from the Benedictine abbey where Dom Pierre Pérignon lived. Its sloping streets and numerous wrought-iron signs also make it one of Champagne’s most recognisable villages.",
+    "Bouzy":"Bouzy has a distinctive tradition of still red wine, now protected as Coteaux Champenois Bouzy. The village also remains strongly shaped by its many family-run growers.",
+    "Verzenay":"The Verzenay lighthouse, built among the vines in the early 20th century, has become one of Champagne’s most unusual landmarks. It now houses the Vine Museum.",
+    "Verzy":"Verzy lies beside the Faux de Verzy, the famous twisted beech trees of the Montagne de Reims forest. This natural curiosity gives the village an identity extending well beyond wine.",
+    "Les Riceys":"Les Riceys brings together three historic villages and has Champagne’s largest communal vineyard. It is also the home of the rare still wine Rosé des Riceys.",
+    "Essoyes":"Essoyes is closely associated with Auguste Renoir, who regularly stayed here and is buried in the village. It combines an artistic heritage with the vineyards of the Ource valley.",
+    "Reims":"Reims combines wine heritage with French history: its cathedral was the traditional coronation site of French kings, while several Champagne houses use ancient chalk quarries beneath the city.",
+    "Épernay":"Épernay is Champagne’s historic commercial capital. Beneath Avenue de Champagne and the surrounding districts lies an extensive network of chalk cellars used by many major houses."
+  };
+  let lastFeature=null,lastFeatureLayer=null;
+  function applyLanguage(lang){
+    currentLang=lang; document.documentElement.lang=lang;
+    const t=uiText[lang];
+    const search=document.getElementById('mapSearch'), resetBtn=document.getElementById('resetMap'), hint=document.querySelector('.map-hint');
+    if(search)search.placeholder=t.search;if(resetBtn)resetBtn.textContent=t.reset;if(hint)hint.textContent=t.hint;
+    const labels=document.querySelectorAll('.card-label'); if(labels[1])labels[1].textContent=t.grapes;if(labels[2])labels[2].textContent=t.producers;
+    document.querySelectorAll('.lang-button').forEach(b=>b.classList.toggle('active',b.dataset.lang===lang));
+    try{localStorage.setItem('winelens-lang',lang)}catch(e){}
+    if(lastFeature)showFeature(lastFeature,lastFeatureLayer);
+    else{
+      zoneKind.textContent=t.zone;zoneName.textContent=t.explore;zoneField.textContent=t.wineRegion;codeField.textContent='—';info.textContent=t.intro;
+      document.getElementById('grapeContent').innerHTML='<p class="empty-copy">'+t.grapeEmpty+'</p>';
+      document.getElementById('producerContent').innerHTML='<p class="empty-copy">'+t.producerEmpty+'</p>';
+    }
+  }
+  document.querySelectorAll('.lang-button').forEach(b=>b.addEventListener('click',()=>applyLanguage(b.dataset.lang)));
+
 function showFeature(feature, layer){
     const p=feature.properties||{};
     const name=p.name||p.nom||'Zone viticole';
     const communeData=communeCard(name);
-    zoneKind.textContent=p.code?'COMMUNE':'TERROIR DE CHAMPAGNE';
+    const t=uiText[currentLang];
+    lastFeature=feature;lastFeatureLayer=layer;
+    zoneKind.textContent=p.code?t.commune:t.terroir;
     zoneName.textContent=name;
-    info.textContent=(communeData&&communeData.info)||p.info||'Petit village viticole rural. Nous n’avons pas encore d’anecdote ou de particularité notable à présenter.';
-    zoneField.textContent=p.code?'Terroir':'Région viticole';
+    const frInfo=(communeData&&communeData.info)||p.info||uiText.fr.fallback;
+    info.textContent=currentLang==='fr'?frInfo:(englishSpecifics[communeAliases[name]||name]||((communeData&&communeData.info===uiText.fr.fallback)?t.fallback:frInfo));
+    zoneField.textContent=p.code?t.terroirLabel:t.regionLabel;
     codeField.textContent=(communeData&&communeData.area)||'—';
 
     const grapeContent=document.getElementById('grapeContent');
@@ -2069,7 +2106,7 @@ function showFeature(feature, layer){
     const q=query.trim().toLocaleLowerCase('fr');
     if(!q){results.hidden=true;results.innerHTML='';return}
     const matches=communes.filter(x=>x.name.toLocaleLowerCase('fr').includes(q)).slice(0,8);
-    results.innerHTML=matches.length?matches.map((x,i)=>'<button class="search-result" data-i="'+i+'"><strong>'+x.name+'</strong><span>'+(x.code?'Commune · '+x.code:'Zone viticole')+'</span></button>').join(''):'<div class="search-result">Aucun résultat</div>';
+    results.innerHTML=matches.length?matches.map((x,i)=>'<button class="search-result" data-i="'+i+'"><strong>'+x.name+'</strong><span>'+(x.code?'Commune · '+x.code :uiText[currentLang].vitZone)+'</span></button>').join(''):'<div class="search-result">'+uiText[currentLang].noResult+'</div>';
     results.hidden=false;
     results.querySelectorAll('button').forEach((btn,i)=>btn.addEventListener('click',()=>{
       const item=matches[i];
@@ -2082,4 +2119,5 @@ function showFeature(feature, layer){
   searchInput.addEventListener('keydown',e=>{if(e.key==='Escape'){results.hidden=true;searchInput.blur()}});
   document.addEventListener('click',e=>{if(!e.target.closest('.search-wrap'))results.hidden=true});
   reset.addEventListener('click',()=>{map.setView(initialView.center,initialView.zoom);searchInput.value='';results.hidden=true});
+  let savedLang='fr';try{savedLang=localStorage.getItem('winelens-lang')||'fr'}catch(e){}applyLanguage(savedLang==='en'?'en':'fr');
 })();
