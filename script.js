@@ -1907,10 +1907,7 @@ fieldText3.innerHTML=selected.feature.properties.activity3;
  
 }
 
-var searchLayer = L.layerGroup().addTo(map);
-//... adding data in searchLayer ...
-map.addControl( new L.Control.Search({layer: searchLayer}) );
-//searchLayer is a L.LayerGroup contains searched markers
+// Search is implemented below without an external Leaflet plugin.
 
 
 
@@ -1931,3 +1928,97 @@ map.addControl( new L.Control.Search({layer: searchLayer}) );
       },
 
 */
+
+// --- WineLens V2 interface enhancements ---
+(function(){
+  const initialView={center:[48.848,4.345],zoom:8};
+  const searchInput=document.getElementById('mapSearch');
+  const results=document.getElementById('searchResults');
+  const reset=document.getElementById('resetMap');
+  const zoneKind=document.getElementById('zoneKind');
+  const zoneName=document.getElementById('typeOfZone');
+  const info=document.getElementById('f3');
+  const zoneField=document.getElementById('f1');
+  const codeField=document.getElementById('f2');
+  let selectedLayer=null;
+
+  const allCollections=[
+    typeof blancsGeo!=='undefined'&&blancsGeo,typeof sezannaisGeo!=='undefined'&&sezannaisGeo,
+    typeof morinGeo!=='undefined'&&morinGeo,typeof vitryatGeo!=='undefined'&&vitryatGeo,
+    typeof barSurAubeGeo!=='undefined'&&barSurAubeGeo,typeof marneOuestGeo!=='undefined'&&marneOuestGeo,
+    typeof riveDroiteGeo!=='undefined'&&riveDroiteGeo,typeof riveGaucheGeo!=='undefined'&&riveGaucheGeo,
+    typeof sudEpernayGeo!=='undefined'&&sudEpernayGeo,typeof barSurSeineGeo!=='undefined'&&barSurSeineGeo,
+    typeof grandeValléeGeo!=='undefined'&&grandeValléeGeo,typeof saintThierryGeo!=='undefined'&&saintThierryGeo,
+    typeof montDeBerruGeo!=='undefined'&&montDeBerruGeo,typeof velseEtArdreGeo!=='undefined'&&velseEtArdreGeo,
+    typeof grandeMontagnedereimsGeo!=='undefined'&&grandeMontagnedereimsGeo
+  ].filter(Boolean);
+
+  const communeIndex=[];
+  allCollections.forEach(collection=>(collection.features||[]).forEach(feature=>{
+    const p=feature.properties||{};
+    const name=p.name||p.nom;
+    if(name) communeIndex.push({name,code:p.code||'',feature});
+  }));
+
+  const unique=new Map();
+  communeIndex.forEach(item=>{if(!unique.has(item.name)) unique.set(item.name,item)});
+  const communes=[...unique.values()].sort((a,b)=>a.name.localeCompare(b.name,'fr'));
+
+  function showFeature(feature, layer){
+    const p=feature.properties||{};
+    const name=p.name||p.nom||'Zone viticole';
+    zoneKind.textContent=p.code?'COMMUNE':'TERROIR DE CHAMPAGNE';
+    zoneName.textContent=name;
+    info.textContent=p.info||'Commune viticole de l’appellation Champagne. Des informations détaillées pourront être ajoutées à cette fiche.';
+    zoneField.textContent=p.code?'Commune':'Région viticole';
+    codeField.textContent=p.code||'—';
+    if(layer){
+      if(selectedLayer && selectedLayer!==layer){ try{selectedLayer.setStyle(defaultStyle)}catch(e){} }
+      selectedLayer=layer; selected=layer;
+      try{layer.setStyle({weight:4,color:'#9a7b43',fillColor:'#d9c79f',fillOpacity:.38});layer.bringToFront()}catch(e){}
+    }
+  }
+
+  // Replace legacy hover/click presentation after layers are created.
+  map.eachLayer(layer=>{
+    if(layer instanceof L.GeoJSON){
+      layer.eachLayer(child=>{
+        if(!child.feature)return;
+        child.off('mouseover').off('mouseout').off('click');
+        child.on('mouseover',()=>{ if(child!==selectedLayer) child.setStyle({weight:3,color:'#9a7b43',fillOpacity:.28}); });
+        child.on('mouseout',()=>{ if(child!==selectedLayer) child.setStyle(defaultStyle); });
+        child.on('click',()=>{ showFeature(child.feature,child); map.fitBounds(child.getBounds(),{padding:[35,35],maxZoom:13}); });
+      });
+    }
+  });
+
+  // Re-bind freshly generated GeoJSON layers after zoom changes.
+  map.on('layeradd',e=>{
+    if(!(e.layer instanceof L.GeoJSON))return;
+    setTimeout(()=>e.layer.eachLayer(child=>{
+      if(!child.feature)return;
+      child.off('mouseover').off('mouseout').off('click');
+      child.on('mouseover',()=>{if(child!==selectedLayer)child.setStyle({weight:3,color:'#9a7b43',fillOpacity:.28})});
+      child.on('mouseout',()=>{if(child!==selectedLayer)child.setStyle(defaultStyle)});
+      child.on('click',()=>{showFeature(child.feature,child);map.fitBounds(child.getBounds(),{padding:[35,35],maxZoom:13})});
+    }),0);
+  });
+
+  function renderResults(query){
+    const q=query.trim().toLocaleLowerCase('fr');
+    if(!q){results.hidden=true;results.innerHTML='';return}
+    const matches=communes.filter(x=>x.name.toLocaleLowerCase('fr').includes(q)).slice(0,8);
+    results.innerHTML=matches.length?matches.map((x,i)=>'<button class="search-result" data-i="'+i+'"><strong>'+x.name+'</strong><span>'+(x.code?'Commune · '+x.code:'Zone viticole')+'</span></button>').join(''):'<div class="search-result">Aucun résultat</div>';
+    results.hidden=false;
+    results.querySelectorAll('button').forEach((btn,i)=>btn.addEventListener('click',()=>{
+      const item=matches[i];
+      searchInput.value=item.name;results.hidden=true;
+      const temp=L.geoJSON(item.feature,{style:{weight:4,color:'#9a7b43',fillColor:'#d9c79f',fillOpacity:.38}}).addTo(map);
+      const layer=temp.getLayers()[0];showFeature(item.feature,layer);map.fitBounds(temp.getBounds(),{padding:[35,35],maxZoom:13});
+    }));
+  }
+  searchInput.addEventListener('input',e=>renderResults(e.target.value));
+  searchInput.addEventListener('keydown',e=>{if(e.key==='Escape'){results.hidden=true;searchInput.blur()}});
+  document.addEventListener('click',e=>{if(!e.target.closest('.search-wrap'))results.hidden=true});
+  reset.addEventListener('click',()=>{map.setView(initialView.center,initialView.zoom);searchInput.value='';results.hidden=true});
+})();
