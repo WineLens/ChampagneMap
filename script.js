@@ -1998,8 +1998,7 @@ fieldText3.innerHTML=selected.feature.properties.activity3;
     const grapes={"Chardonnay":ch,"Meunier":pm,"Pinot Noir":pn};
     const specific=villageSpecifics[name];
     const fallback="Petit village viticole rural. Nous n’avons pas encore d’anecdote ou de particularité notable à présenter.";
-    let h=0; for(let i=0;i<name.length;i++)h=(h*31+name.charCodeAt(i))>>>0;
-    return {info:specific||fallbacks[h%fallbacks.length],grapes,area};
+    return {info:specific||fallback,grapes,area};
   }
 
 function showFeature(feature, layer){
