@@ -1972,6 +1972,29 @@ fieldText3.innerHTML=selected.feature.properties.activity3;
     info.textContent=p.info||'Commune viticole de l’appellation Champagne. Des informations détaillées pourront être ajoutées à cette fiche.';
     zoneField.textContent=p.code?'Commune':'Région viticole';
     codeField.textContent=p.code||'—';
+
+    const grapeContent=document.getElementById('grapeContent');
+    const producerContent=document.getElementById('producerContent');
+    const grapeText=p.grapes||p.activity2||'';
+    const producers=p.producers||[];
+
+    if(grapeContent){
+      if(grapeText && typeof grapeText==='string'){
+        grapeContent.innerHTML='<p class="empty-copy">'+grapeText+'</p>';
+      } else if(grapeText && typeof grapeText==='object'){
+        const entries=Object.entries(grapeText);
+        grapeContent.innerHTML='<div class="grape-list">'+entries.map(([grape,value])=>'<div class="grape-line"><span>'+grape+'</span><div class="grape-bar"><i style="width:'+Number(value)+'%"></i></div><strong>'+value+'%</strong></div>').join('')+'</div>';
+      } else {
+        grapeContent.innerHTML='<p class="empty-copy">Grape data for this area has not been added yet.</p>';
+      }
+    }
+    if(producerContent){
+      if(Array.isArray(producers) && producers.length){
+        producerContent.innerHTML='<div class="producer-list">'+producers.map(name=>'<span>'+name+'</span>').join('')+'</div>';
+      } else {
+        producerContent.innerHTML='<p class="empty-copy">Producer data for this area has not been added yet.</p>';
+      }
+    }
     if(layer){
       if(selectedLayer && selectedLayer!==layer){ try{selectedLayer.setStyle(defaultStyle)}catch(e){} }
       selectedLayer=layer; selected=layer;
