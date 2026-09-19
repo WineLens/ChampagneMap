@@ -546,11 +546,13 @@ L.geoJSON(placeholder).addTo(map);
 var regionMontagneDeReims = {
     "type": "Feature",
     "properties": {
-      "name":"Montagne de Reims", 
-      "info":"Des vignes exposées plein sud perchés sur des coteaux de marnes argilo-calcaires font de cette région le berceau des plus grands crus de Pinot Noirs notamment sur le flanc est de la 'montagne de Reims'. L'encépagement est plus varié sur le nord de cette région, aux alentours de Reims",
-    "content1": "url('https://placekitten.com/600/400?image=15')"},
-    "content2" :"",
-    "content3" :"",
+      "name":"Montagne de Reims",
+      "info":"A broad, crescent-shaped vineyard around Reims, the Montagne de Reims combines chalk-rich slopes with markedly different exposures. Pinot Noir is the emblematic grape, especially on the eastern and southern slopes, while Meunier becomes more important toward the north and west and Chardonnay has notable pockets of its own.",
+      "grapes":{"Pinot Noir":56.2,"Chardonnay":29.6,"Meunier":13.8},
+      "content1":"",
+      "content2":"",
+      "content3":""
+    },
     "geometry": {
       "type": "Polygon",
       "coordinates": [
@@ -876,12 +878,14 @@ L.geoJSON(regionMontagneDeReims, {
 var regionValléeDeLaMarne = {
   "type": "Feature",
   "properties": {
-      "name":"Vallée de la Marne", 
-      "info":"The Marne Valley vineyards thrive on steep hillsides, mostly on either side of the river, stretching towards Paris for as far as the eye can see.",
-    "content1": "url('https://placekitten.com/600/400?image=15')"},
-    "content2" :"",
-    "content3" :"",
-  "geometry": {
+      "name":"Vallée de la Marne",
+      "info":"Following the Marne westward from Épernay, this long vineyard corridor occupies steep slopes on both sides of the river. Pinot Noir is particularly important in the eastern Grande Vallée, while Meunier increasingly dominates farther west, reflecting the cooler, more frost-prone valley conditions.",
+      "grapes":{"Meunier":55,"Pinot Noir":30,"Chardonnay":15},
+      "content1":"",
+      "content2":"",
+      "content3":""
+    },
+    "geometry": {
     "type": "Polygon",
     "coordinates": [
           [
@@ -1272,12 +1276,14 @@ L.geoJSON(regionValléeDeLaMarne, {
 var regionCoteDesBlancs = {
   "type": "Feature",
   "properties": {
-      "name":"Côte des blancs", 
-      "info":"Its name comes from the main white grape variety planted there: Chardonnay. The region extends from the north-east of the area under vine to the south-west, at right angles to the Marne Valley.",
-    "content1": "url('https://placekitten.com/600/400?image=15')"},
-    "content2" :"",
-    "content3" :"",
-  "geometry": {
+      "name":"Côte des blancs",
+      "info":"The historic heartland of Chardonnay in Champagne, the Côte des Blancs follows a chalky ridge south of Épernay. Its predominantly east-facing slopes and shallow chalk soils are especially well suited to Chardonnay, producing wines prized for freshness, tension and mineral character.",
+      "grapes":{"Chardonnay":97.2,"Pinot Noir":2,"Meunier":0.8},
+      "content1":"",
+      "content2":"",
+      "content3":""
+    },
+    "geometry": {
     "type": "Polygon",
     "coordinates": [
           [
@@ -1483,12 +1489,14 @@ L.geoJSON(regionCoteDesBlancs, {
 var regionVitryat = {
   "type": "Feature",
   "properties": {
-      "name":"Vitryat", 
-      "info":"Technically part of the 'Côte des blancs' region, The 'Vitryat' terroir forged itself its own identity. It represent less than 2% of the vineyards of the whole Champagne region, most of it is planted Chardonnay ",
-    "content1": "url('https://placekitten.com/600/400?image=15')"},
-    "content2" :"",
-    "content3" :"",
-  "geometry": {
+      "name":"Vitryat",
+      "info":"An isolated eastern Champagne terroir around Vitry-le-François, the Vitryat is formed by gentle limestone and marl hills. Chardonnay overwhelmingly dominates here and typically gives fresh, citrus-led wines with a broader fruit profile than the classic Côte des Blancs.",
+      "grapes":{"Chardonnay":97.5,"Pinot Noir":1.3,"Meunier":1.2},
+      "content1":"",
+      "content2":"",
+      "content3":""
+    },
+    "geometry": {
     "type": "Polygon",
     "coordinates": [
           [
@@ -1624,16 +1632,14 @@ L.geoJSON(regionVitryat, {
 var coteDesBarsRegion = {
   "type": "Feature",
   "properties": {
-      "name":"Côtes des bars", 
-      "info":"Côte des Bar lies right to the south of the Champagne AOC area, south-east of Troyes with the exception of one village called Montgueux located 5 min west of the City of Troyes (not referenced on the map yet). a vast majority of the grapes in this region are Pinot Noir",
-    "content1": "url('https://placekitten.com/600/400?image=15')",
-    "activity1": "" ,
-    "content2" :"url('https://imageio.forbes.com/specials-images/imageserve/5f71d693560999de9f144241/0x0.jpg?format=jpg&width=1200')",
-    "activity2": "Pinot Noir is the main Grape in this region being planted at around 80% of the vineyard" ,
-    "content3" :"",
-    "activity3": "" 
-  },
-  "geometry": {
+      "name":"Côtes des bars",
+      "info":"Champagne's southernmost major vineyard area lies around the valleys of the Aube and Seine, southeast of Troyes. Its rolling, fragmented vineyards grow on clay-limestone soils with strong affinities to the Kimmeridgian geology of nearby Chablis. Pinot Noir is overwhelmingly dominant and often gives generous, fruit-driven Champagnes.",
+      "grapes":{"Pinot Noir":85.6,"Chardonnay":9.8,"Meunier":3.4,"Other":1.2},
+      "content1":"",
+      "content2":"",
+      "content3":""
+    },
+    "geometry": {
     "type": "Polygon",
     "coordinates": [
       [
