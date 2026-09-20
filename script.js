@@ -4,7 +4,8 @@
   const input=$('mapSearch'), results=$('searchResults');
   if(!window.L||!data||!core){$('mapStatus').textContent='La carte n’a pas pu être chargée. Vérifiez votre connexion puis rechargez la page.';return;}
   const index=core.buildIndex(data), entries=new Map(index.map(x=>[x.id,x]));
-  const map=L.map('map').setView([48.848,4.345],8).setMaxBounds(L.latLngBounds([49.4065,2.8290],[47.8633,5.3334]));
+  // Avoid an in-flight CSS zoom completing after an immediate overview reset.
+  const map=L.map('map',{zoomAnimation:false}).setView([48.848,4.345],8).setMaxBounds(L.latLngBounds([49.4065,2.8290],[47.8633,5.3334]));
   const tiles=L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
     attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',maxZoom:19
   }).addTo(map);
