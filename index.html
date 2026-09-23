@@ -1,80 +1,40 @@
-<!DOCTYPE html>
-<html lang="en" >
+<!doctype html>
+<html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>CodePen - A Pen by Joris</title>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Explorez les terroirs, cépages et producteurs de Champagne avec WineLens.">
+  <title>WineLens — Champagne Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <link rel="stylesheet" href="./style.css">
-
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<head>
-  <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
-     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
-     crossorigin=""/>
- <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
-     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
-     crossorigin=""></script>
-</head>
-
-<body>
-<div class="container">
-<div class="header"> 
-  <div class="site-identity">
-    <h1><a href="#">Logo</a></h1>
-  </div>
-    <div class="selected-zone">
-    <h1 id=typeOfZone>Zone</h1>
-  </div>  
-  <nav class="site-navigation">
-    <ul class="nav">
-      <li><a href="#">About</a></li> 
-      <li><a href="#">Contact</a></li> 
-    </ul>
-  </nav>
+<div class="app-shell">
+<header class="topbar">
+  <a class="brand" href="./"><span class="brand-mark">W</span><span><strong>WineLens</strong><small>Champagne Map</small></span></a>
+  <div class="search-wrap"><label class="sr-only" for="mapSearch">Rechercher une commune ou une région</label><input id="mapSearch" type="search" role="combobox" aria-autocomplete="list" aria-controls="searchResults" aria-expanded="false" placeholder="Rechercher une commune ou une région…" autocomplete="off"><div id="searchResults" role="listbox" aria-label="Résultats de recherche" class="search-results" hidden></div><span id="searchStatus" class="sr-only" role="status"></span></div>
+  <button id="resetMap" class="ghost-button" type="button" aria-label="Revenir à la vue d’ensemble">Vue d’ensemble</button>
+</header>
+<main class="workspace">
+  <section class="map-panel" aria-label="Carte de Champagne"><div id="map"></div><p id="mapStatus" class="map-status" role="status"></p><div class="map-hint">Cliquez sur une zone pour découvrir sa fiche</div></section>
+  <aside class="cards-panel">
+    <article class="info-card identity-card">
+      <div class="card-label" id="zoneKind">RÉGIONS ET COMMUNES</div>
+      <h1 id="typeOfZone">Explorez la Champagne</h1>
+      <div class="meta-row"><span id="f1">Vignoble champenois</span><span id="f2">Vue d’ensemble</span></div>
+      <p id="f3">Sélectionnez une région ou recherchez une commune pour découvrir sa fiche.</p>
+    </article>
+    <article class="info-card grapes-card">
+      <div class="card-head"><div class="card-label">CÉPAGES</div><span class="card-symbol" aria-hidden="true">◌</span></div>
+      <div id="grapeContent" class="card-content"><p class="empty-copy">Sélectionnez une zone pour consulter les informations sur ses cépages.</p></div>
+    </article>
+    <article class="info-card producers-card">
+      <div class="card-head"><div class="card-label">PRODUCTEURS</div><span class="card-symbol" aria-hidden="true">↗</span></div>
+      <div id="producerContent" class="card-content"><p class="empty-copy">Sélectionnez une zone pour consulter les informations disponibles.</p></div>
+    </article>
+  </aside>
+</main>
 </div>
-
-<div class="map" id="map"></div>
-
-<div class="description"> 
-        <table>
-          <tr>
-          <th></th>
-          <td class="sideInfo" id='f1'></td>
-          </tr><tr>
-          <th></th>
-          <td class="sideInfo" id='f2'></td>
-          <th></th>
-          <td class="sideInfo" id="f3"></td>
-          </tr> </table>
-           </div>
-  
-    <div class="contenu"> 
-        <div class="exemple" id="exemple-1">
-          <a href="" id="link1"></a>
-   <p class="contentText" id="text1"> top kek </p>
-      </div>
-      <div class="exemple" id="exemple-2"> 
-        <a href="" id="link2"></a>
-   <p class="contentText" id="text2"> top kek </p>
-      </div>
-      <div class="exemple" id="exemple-3">
-        <a href="" id="link3"></a>
-   <p class="contentText" id="text3"> top kek </p>
-      </div>
-      
-  </div>
-  
-    </div>
-   
-  
-</body>
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.3/leaflet.js'></script><script  src="./script.js"></script>
-
-</body>
-</html>
+<p id="selectionStatus" class="sr-only" role="status"></p>
+<noscript>Activez JavaScript pour utiliser la carte et la recherche.</noscript>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script src="./data.js"></script><script src="./core.js"></script><script src="./script.js"></script>
+</body></html>
