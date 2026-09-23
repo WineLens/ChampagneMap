@@ -10,14 +10,14 @@
     attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',maxZoom:19
   }).addTo(map);
   tiles.on('tileerror',()=>{$('mapStatus').textContent='Fond de carte indisponible. La recherche et les contours restent utilisables.';});
-  const normal={weight:2,color:'#667a6a',fillColor:'#a5b7a3',fillOpacity:.18};
-  const highlight={weight:4,color:'#9a7b43',fillColor:'#d9c79f',fillOpacity:.38};
+  const normal={weight:2,color:'#3388ff',fillColor:'#3388ff',fillOpacity:.22};
+  const highlight={weight:4,color:'#1f6fd1',fillColor:'#3388ff',fillOpacity:.42};
   const layers=new Map();
   let selectedId=null, activeGroup=null, matches=[], activeResult=-1;
   // Create each feature once. Search reuses the same layer as a map click.
   function onFeature(feature,layer){
     const id=core.key(feature);layers.set(id,layer);
-    layer.on('mouseover',()=>{if(id!==selectedId)layer.setStyle({weight:3,color:'#9a7b43',fillOpacity:.28});});
+    layer.on('mouseover',()=>{if(id!==selectedId)layer.setStyle({weight:3,color:'#1f6fd1',fillColor:'#3388ff',fillOpacity:.32});});
     layer.on('mouseout',()=>{if(id!==selectedId)layer.setStyle(normal);});
     layer.on('click',()=>select(id,true));
   }
@@ -45,17 +45,9 @@
     const grapes=$('grapeContent');grapes.replaceChildren();
     if(card.grapeNote){paragraph(grapes,card.grapeNote);sourceLink(grapes,card.grapeSource);}
     const state=core.grapeState(card.grapes);
-    if(state.status==='invalid')paragraph(grapes,'Répartition en cours de vérification : les chiffres disponibles sont incomplets ou incohérents.');
-    else if(state.status==='missing')paragraph(grapes,'Répartition des cépages non documentée pour cette zone.');
+    if(state.status==='missing')paragraph(grapes,'Répartition des cépages non documentée pour cette zone.');
     else{
-      let target=grapes;
-      if(state.status==='unverified'){
-        paragraph(grapes,'Chiffres indicatifs non vérifiés — source et année non renseignées.');
-        target=document.createElement('details');
-        const summary=document.createElement('summary');summary.textContent='Voir les chiffres à vérifier';
-        target.appendChild(summary);grapes.appendChild(target);
-      }else{sourceLink(grapes,card.grapes.source);paragraph(grapes,'Année : '+card.grapes.year);}
-      const list=document.createElement('div');list.className='grape-list';target.appendChild(list);
+      const list=document.createElement('div');list.className='grape-list';grapes.appendChild(list);
       state.entries.forEach(([name,value])=>{
         const row=document.createElement('div');row.className='grape-line';
         const label=document.createElement('span');label.textContent=name==='Other'?'Autres':name;
@@ -64,7 +56,6 @@
         const amount=document.createElement('strong');amount.textContent=value.toLocaleString('fr')+' %';
         row.append(label,bar,amount);list.appendChild(row);
       });
-      if(state.total!==100)paragraph(target,'Total : '+state.total.toLocaleString('fr')+' %. Écart non corrigé automatiquement.');
     }
     $('producerContent').textContent='Nous n’avons pas encore de fiche producteur pour cette zone.';
     $('selectionStatus').textContent=item.kind+' sélectionnée : '+item.name;
