@@ -310,7 +310,7 @@ window.WineLensData = {
   "10002": {
     "name": "Ailleville",
     "area": "Bar-sur-Aubois",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -326,7 +326,7 @@ window.WineLensData = {
   "10007": {
     "name": "Arconville",
     "area": "Bar-sur-Aubois",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -342,7 +342,7 @@ window.WineLensData = {
   "10008": {
     "name": "Argançon",
     "area": "Bar-sur-Aubois",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -358,7 +358,7 @@ window.WineLensData = {
   "10011": {
     "name": "Arrentières",
     "area": "Bar-sur-Aubois",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -374,7 +374,7 @@ window.WineLensData = {
   "10012": {
     "name": "Arsonval",
     "area": "Bar-sur-Aubois",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -390,7 +390,7 @@ window.WineLensData = {
   "10022": {
     "name": "Avirey-Lingey",
     "area": "Barséquanais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -406,7 +406,7 @@ window.WineLensData = {
   "10025": {
     "name": "Bagneux-la-Fosse",
     "area": "Barséquanais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -422,7 +422,7 @@ window.WineLensData = {
   "10029": {
     "name": "Balnot-sur-Laignes",
     "area": "Barséquanais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -438,7 +438,7 @@ window.WineLensData = {
   "10032": {
     "name": "Baroville",
     "area": "Bar-sur-Aubois",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -454,7 +454,7 @@ window.WineLensData = {
   "10033": {
     "name": "Bar-sur-Aube",
     "area": "Bar-sur-Aubois",
-    "info": "Bar-sur-Aube est un ancien centre de foires médiévales de Champagne. La ville conserve un patrimoine urbain important et sert aujourd'hui de pôle commercial à la partie orientale de la Côte des Bar.",
+    "info": "Bar-sur-Aube fut l’un des grands centres des foires de Champagne au Moyen Âge.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -470,7 +470,7 @@ window.WineLensData = {
   "10034": {
     "name": "Bar-sur-Seine",
     "area": "Barséquanais",
-    "info": "Bar-sur-Seine fut une place importante des anciennes foires de Champagne. Son centre ancien et les vestiges de son château rappellent ce rôle historique au cœur du Barséquanais.",
+    "info": "Bar-sur-Seine fut une place importante des foires de Champagne au Moyen Âge.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -486,7 +486,7 @@ window.WineLensData = {
   "10039": {
     "name": "Bergères",
     "area": "Bar-sur-Aubois",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -502,7 +502,7 @@ window.WineLensData = {
   "10041": {
     "name": "Bertignolles",
     "area": "Barséquanais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -518,7 +518,7 @@ window.WineLensData = {
   "10048": {
     "name": "Bligny",
     "area": "Bar-sur-Aubois",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -534,7 +534,7 @@ window.WineLensData = {
   "10058": {
     "name": "Bragelogne-Beauvoir",
     "area": "Barséquanais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -550,7 +550,7 @@ window.WineLensData = {
   "10068": {
     "name": "Buxeuil",
     "area": "Barséquanais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -566,7 +566,7 @@ window.WineLensData = {
   "10069": {
     "name": "Buxières-sur-Arce",
     "area": "Barséquanais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -582,7 +582,7 @@ window.WineLensData = {
   "10070": {
     "name": "Celles-sur-Ource",
     "area": "Barséquanais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -598,7 +598,7 @@ window.WineLensData = {
   "10071": {
     "name": "Chacenay",
     "area": "Barséquanais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -614,7 +614,7 @@ window.WineLensData = {
   "10076": {
     "name": "Champignol-lez-Mondeville",
     "area": "Bar-sur-Aubois",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -630,7 +630,7 @@ window.WineLensData = {
   "10079": {
     "name": "Channes",
     "area": "Barséquanais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -646,7 +646,7 @@ window.WineLensData = {
   "10097": {
     "name": "Chervey",
     "area": "Barséquanais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -662,7 +662,7 @@ window.WineLensData = {
   "10102": {
     "name": "Colombé-la-Fosse",
     "area": "Bar-sur-Aubois",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -678,7 +678,7 @@ window.WineLensData = {
   "10103": {
     "name": "Colombé-le-Sec",
     "area": "Bar-sur-Aubois",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -694,7 +694,7 @@ window.WineLensData = {
   "10111": {
     "name": "Courteron",
     "area": "Barséquanais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -710,7 +710,7 @@ window.WineLensData = {
   "10113": {
     "name": "Couvignon",
     "area": "Bar-sur-Aubois",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -726,7 +726,7 @@ window.WineLensData = {
   "10119": {
     "name": "Cunfin",
     "area": "Barséquanais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -742,7 +742,7 @@ window.WineLensData = {
   "10126": {
     "name": "Dolancourt",
     "area": "Bar-sur-Aubois",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -758,7 +758,7 @@ window.WineLensData = {
   "10136": {
     "name": "Éguilly-sous-Bois",
     "area": "Barséquanais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -774,7 +774,7 @@ window.WineLensData = {
   "10137": {
     "name": "Engente",
     "area": "Bar-sur-Aubois",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -790,7 +790,7 @@ window.WineLensData = {
   "10141": {
     "name": "Essoyes",
     "area": "Barséquanais",
-    "info": "Essoyes est étroitement liée à Auguste Renoir, qui y séjourna régulièrement et y est enterré. Le village associe ainsi patrimoine artistique et vignoble de la vallée de l'Ource.",
+    "info": "Auguste Renoir séjourna régulièrement à Essoyes et y est enterré.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -806,7 +806,7 @@ window.WineLensData = {
   "10150": {
     "name": "Fontaine",
     "area": "Bar-sur-Aubois",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -822,7 +822,7 @@ window.WineLensData = {
   "10155": {
     "name": "Fontette",
     "area": "Barséquanais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -838,7 +838,7 @@ window.WineLensData = {
   "10160": {
     "name": "Fravaux",
     "area": "Bar-sur-Aubois",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -854,7 +854,7 @@ window.WineLensData = {
   "10170": {
     "name": "Gyé-sur-Seine",
     "area": "Barséquanais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -870,7 +870,7 @@ window.WineLensData = {
   "10176": {
     "name": "Jaucourt",
     "area": "Bar-sur-Aubois",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -886,7 +886,7 @@ window.WineLensData = {
   "10187": {
     "name": "Landreville",
     "area": "Barséquanais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -902,7 +902,7 @@ window.WineLensData = {
   "10197": {
     "name": "Lignol-le-Château",
     "area": "Bar-sur-Aubois",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -918,7 +918,7 @@ window.WineLensData = {
   "10199": {
     "name": "Loches-sur-Ource",
     "area": "Barséquanais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -934,7 +934,7 @@ window.WineLensData = {
   "10232": {
     "name": "Merrey-sur-Arce",
     "area": "Barséquanais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -950,7 +950,7 @@ window.WineLensData = {
   "10242": {
     "name": "Meurville",
     "area": "Bar-sur-Aubois",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -966,7 +966,7 @@ window.WineLensData = {
   "10250": {
     "name": "Montier-en-l'Isle",
     "area": "Bar-sur-Aubois",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -982,7 +982,7 @@ window.WineLensData = {
   "10261": {
     "name": "Mussy-sur-Seine",
     "area": "Barséquanais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -998,7 +998,7 @@ window.WineLensData = {
   "10262": {
     "name": "Neuville-sur-Seine",
     "area": "Barséquanais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1014,7 +1014,7 @@ window.WineLensData = {
   "10264": {
     "name": "Noé-les-Mallets",
     "area": "Barséquanais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1030,7 +1030,7 @@ window.WineLensData = {
   "10288": {
     "name": "Plaines-Saint-Lange",
     "area": "Barséquanais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1046,7 +1046,7 @@ window.WineLensData = {
   "10295": {
     "name": "Polisot",
     "area": "Barséquanais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1062,7 +1062,7 @@ window.WineLensData = {
   "10296": {
     "name": "Polisy",
     "area": "Barséquanais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1078,7 +1078,7 @@ window.WineLensData = {
   "10306": {
     "name": "Proverville",
     "area": "Bar-sur-Aubois",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1094,7 +1094,7 @@ window.WineLensData = {
   "10317": {
     "name": "Les Riceys",
     "area": "Barséquanais",
-    "info": "Les Riceys réunissent trois anciens bourgs et possèdent le plus vaste vignoble communal de Champagne. C'est aussi la commune emblématique du Rosé des Riceys, vin tranquille rare élaboré à partir de Pinot Noir.",
+    "info": "Les Riceys est la commune emblématique du Rosé des Riceys, vin tranquille élaboré à partir de Pinot Noir.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1110,7 +1110,7 @@ window.WineLensData = {
   "10330": {
     "name": "Rouvres-les-Vignes",
     "area": "Bar-sur-Aubois",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1126,7 +1126,7 @@ window.WineLensData = {
   "10364": {
     "name": "Saint-Usage",
     "area": "Barséquanais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1142,7 +1142,7 @@ window.WineLensData = {
   "10366": {
     "name": "Saulcy",
     "area": "Bar-sur-Aubois",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1158,7 +1158,7 @@ window.WineLensData = {
   "10374": {
     "name": "Spoy",
     "area": "Bar-sur-Aubois",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1174,7 +1174,7 @@ window.WineLensData = {
   "10384": {
     "name": "Trannes",
     "area": "Bar-sur-Aubois",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1190,7 +1190,7 @@ window.WineLensData = {
   "10390": {
     "name": "Urville",
     "area": "Bar-sur-Aubois",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1206,7 +1206,7 @@ window.WineLensData = {
   "10404": {
     "name": "Verpillières-sur-Ource",
     "area": "Barséquanais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1222,7 +1222,7 @@ window.WineLensData = {
   "10420": {
     "name": "Villenauxe-la-Grande",
     "area": "Sézannais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1238,7 +1238,7 @@ window.WineLensData = {
   "10427": {
     "name": "Ville-sur-Arce",
     "area": "Barséquanais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1254,7 +1254,7 @@ window.WineLensData = {
   "10438": {
     "name": "Vitry-le-Croisé",
     "area": "Barséquanais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1270,7 +1270,7 @@ window.WineLensData = {
   "10439": {
     "name": "Viviers-sur-Artaut",
     "area": "Barséquanais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1286,7 +1286,7 @@ window.WineLensData = {
   "10440": {
     "name": "Voigny",
     "area": "Bar-sur-Aubois",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1302,7 +1302,7 @@ window.WineLensData = {
   "51002": {
     "name": "Saint-Martin-d'Ablois",
     "area": "Coteaux Sud d'Épernay",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1318,7 +1318,7 @@ window.WineLensData = {
   "51005": {
     "name": "Allemant",
     "area": "Sézannais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1334,7 +1334,7 @@ window.WineLensData = {
   "51007": {
     "name": "Ambonnay",
     "area": "Grande Montagne de Reims",
-    "info": "Ambonnay est un village de vignerons installé au pied du versant sud de la Montagne de Reims. Sa réputation s'est construite autant sur ses raisins de Pinot Noir que sur ses nombreux récoltants-manipulants.",
+    "info": "Ambonnay est particulièrement réputé pour son Pinot Noir.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1350,7 +1350,7 @@ window.WineLensData = {
   "51014": {
     "name": "Arcis-le-Ponsart",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1366,7 +1366,7 @@ window.WineLensData = {
   "51020": {
     "name": "Aubilly",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1382,7 +1382,7 @@ window.WineLensData = {
   "51028": {
     "name": "Avenay-Val-d'Or",
     "area": "Grande Vallée de la Marne",
-    "info": "Avenay-Val-d'Or est installé dans une petite vallée qui entaille la Montagne de Reims. Le bourg conserve une église médiévale et un tissu ancien étroitement imbriqué avec le vignoble.",
+    "info": "Avenay-Val-d’Or conserve une église d’origine médiévale.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1398,7 +1398,7 @@ window.WineLensData = {
   "51029": {
     "name": "Avize",
     "area": "Côte des Blancs",
-    "info": "Avize est l'un des villages emblématiques du blanc de blancs. Son vignoble descend directement vers le bourg depuis la côte, et plusieurs grandes maisons comme des domaines familiaux y possèdent caves et pressoirs.",
+    "info": "Avize est l’un des villages emblématiques des Champagnes blanc de blancs de la Côte des Blancs.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1414,7 +1414,7 @@ window.WineLensData = {
   "51030": {
     "name": "Aÿ-Champagne",
     "area": "Grande Vallée de la Marne",
-    "info": "Aÿ est l'un des grands bourgs historiques du négoce champenois. Son patrimoine viticole se lit encore dans les maisons, cours et caves qui accompagnent les coteaux dominant la Marne.",
+    "info": "Aÿ est l’un des grands bourgs historiques du négoce champenois.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1430,7 +1430,7 @@ window.WineLensData = {
   "51036": {
     "name": "Barbonne-Fayel",
     "area": "Sézannais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1446,7 +1446,7 @@ window.WineLensData = {
   "51038": {
     "name": "Baslieux-sous-Châtillon",
     "area": "Vallée de la Marne Rive Droite",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1462,7 +1462,7 @@ window.WineLensData = {
   "51039": {
     "name": "Bassu",
     "area": "Vitryat",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1478,7 +1478,7 @@ window.WineLensData = {
   "51040": {
     "name": "Bassuet",
     "area": "Vitryat",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1494,7 +1494,7 @@ window.WineLensData = {
   "51042": {
     "name": "Baye",
     "area": "Val du Petit Morin",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1510,7 +1510,7 @@ window.WineLensData = {
   "51044": {
     "name": "Beaumont-sur-Vesle",
     "area": "Grande Montagne de Reims",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1526,7 +1526,7 @@ window.WineLensData = {
   "51045": {
     "name": "Beaunay",
     "area": "Val du Petit Morin",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1542,7 +1542,7 @@ window.WineLensData = {
   "51048": {
     "name": "Belval-sous-Châtillon",
     "area": "Vallée de la Marne Rive Droite",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1558,7 +1558,7 @@ window.WineLensData = {
   "51049": {
     "name": "Bergères-lès-Vertus",
     "area": "Côte des Blancs",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1574,7 +1574,7 @@ window.WineLensData = {
   "51050": {
     "name": "Bergères-sous-Montmirail",
     "area": "Val du Petit Morin",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1590,7 +1590,7 @@ window.WineLensData = {
   "51052": {
     "name": "Berru",
     "area": "Monts de Berru",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1606,7 +1606,7 @@ window.WineLensData = {
   "51056": {
     "name": "Bethon",
     "area": "Sézannais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1622,7 +1622,7 @@ window.WineLensData = {
   "51058": {
     "name": "Bezannes",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1638,7 +1638,7 @@ window.WineLensData = {
   "51061": {
     "name": "Billy-le-Grand",
     "area": "Grande Montagne de Reims",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1654,7 +1654,7 @@ window.WineLensData = {
   "51063": {
     "name": "Binson-et-Orquigny",
     "area": "Vallée de la Marne Rive Droite",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1670,7 +1670,7 @@ window.WineLensData = {
   "51069": {
     "name": "Bligny",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "missing",
       "values": null,
@@ -1682,7 +1682,7 @@ window.WineLensData = {
   "51072": {
     "name": "Bouilly",
     "area": "Massif de Saint-Thierry",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1698,7 +1698,7 @@ window.WineLensData = {
   "51073": {
     "name": "Bouleuse",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1714,7 +1714,7 @@ window.WineLensData = {
   "51076": {
     "name": "Boursault",
     "area": "Vallée de la Marne Rive Gauche",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1730,7 +1730,7 @@ window.WineLensData = {
   "51079": {
     "name": "Bouzy",
     "area": "Grande Montagne de Reims",
-    "info": "Bouzy possède une tradition particulière de vin rouge tranquille, aujourd'hui protégée sous l'appellation Coteaux Champenois Bouzy. Le village reste fortement marqué par une multitude de domaines familiaux.",
+    "info": "Bouzy possède une tradition de vin rouge tranquille sous l’appellation Coteaux Champenois.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1746,7 +1746,7 @@ window.WineLensData = {
   "51081": {
     "name": "Branscourt",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1762,7 +1762,7 @@ window.WineLensData = {
   "51085": {
     "name": "Le Breuil",
     "area": "Vallée de la Marne Rive Gauche",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1778,7 +1778,7 @@ window.WineLensData = {
   "51088": {
     "name": "Brimont",
     "area": "Massif de Saint-Thierry",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1794,7 +1794,7 @@ window.WineLensData = {
   "51089": {
     "name": "Brouillet",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1810,7 +1810,7 @@ window.WineLensData = {
   "51090": {
     "name": "Broussy-le-Grand",
     "area": "Val du Petit Morin",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1826,7 +1826,7 @@ window.WineLensData = {
   "51092": {
     "name": "Broyes",
     "area": "Sézannais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1842,7 +1842,7 @@ window.WineLensData = {
   "51093": {
     "name": "Brugny-Vaudancourt",
     "area": "Coteaux Sud d'Épernay",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1858,7 +1858,7 @@ window.WineLensData = {
   "51102": {
     "name": "Cauroy-lès-Hermonville",
     "area": "Massif de Saint-Thierry",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1874,7 +1874,7 @@ window.WineLensData = {
   "51103": {
     "name": "La Celle-sous-Chantemerle",
     "area": "Sézannais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1890,7 +1890,7 @@ window.WineLensData = {
   "51105": {
     "name": "Cernay-lès-Reims",
     "area": "Monts de Berru",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1906,7 +1906,7 @@ window.WineLensData = {
   "51109": {
     "name": "Châlons-sur-Vesle",
     "area": "Massif de Saint-Thierry",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1922,7 +1922,7 @@ window.WineLensData = {
   "51111": {
     "name": "Chambrecy",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1938,7 +1938,7 @@ window.WineLensData = {
   "51112": {
     "name": "Chamery",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1954,7 +1954,7 @@ window.WineLensData = {
   "51119": {
     "name": "Champillon",
     "area": "Grande Vallée de la Marne",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1970,7 +1970,7 @@ window.WineLensData = {
   "51120": {
     "name": "Champlat-et-Boujacourt",
     "area": "Vallée de la Marne Rive Droite",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -1986,7 +1986,7 @@ window.WineLensData = {
   "51121": {
     "name": "Champvoisy",
     "area": "Vallée de la Marne Rive Droite",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2002,7 +2002,7 @@ window.WineLensData = {
   "51122": {
     "name": "Changy",
     "area": "Vitryat",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2018,7 +2018,7 @@ window.WineLensData = {
   "51124": {
     "name": "Chantemerle",
     "area": "Sézannais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2034,7 +2034,7 @@ window.WineLensData = {
   "51128": {
     "name": "La Chapelle-sous-Orbais",
     "area": "Vallée de la Marne Rive Gauche",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2050,7 +2050,7 @@ window.WineLensData = {
   "51136": {
     "name": "Châtillon-sur-Marne",
     "area": "Vallée de la Marne Rive Droite",
-    "info": "Une statue monumentale du pape Urbain II domine Châtillon-sur-Marne depuis les hauteurs du village. Visible de loin dans la vallée, elle est devenue l'un des repères du paysage viticole local.",
+    "info": "Une statue monumentale du pape Urbain II domine Châtillon-sur-Marne.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2066,7 +2066,7 @@ window.WineLensData = {
   "51140": {
     "name": "Chaumuzy",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2082,7 +2082,7 @@ window.WineLensData = {
   "51142": {
     "name": "Chavot-Courcourt",
     "area": "Coteaux Sud d'Épernay",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2098,7 +2098,7 @@ window.WineLensData = {
   "51145": {
     "name": "Chenay",
     "area": "Massif de Saint-Thierry",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2114,7 +2114,7 @@ window.WineLensData = {
   "51152": {
     "name": "Chigny-les-Roses",
     "area": "Grande Montagne de Reims",
-    "info": "Le village doit son nom actuel à Louise Pommery, qui y développa une importante roseraie au XIXe siècle. L'ancienne commune de Chigny adopta officiellement le nom de Chigny-les-Roses en 1902.",
+    "info": "Chigny prit officiellement le nom de Chigny-les-Roses en 1902.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2130,7 +2130,7 @@ window.WineLensData = {
   "51153": {
     "name": "Chouilly",
     "area": "Côte des Blancs",
-    "info": "Chouilly touche directement Épernay et réunit deux visages : un bourg de plaine et un vaste vignoble de coteaux. Son jardin des vignes permet de découvrir de nombreux cépages champenois.",
+    "info": "Chouilly possède un jardin des vignes consacré aux cépages champenois.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2146,7 +2146,7 @@ window.WineLensData = {
   "51157": {
     "name": "Coizard-Joches",
     "area": "Val du Petit Morin",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2162,7 +2162,7 @@ window.WineLensData = {
   "51158": {
     "name": "Val-des-Marais",
     "area": "Côte des Blancs",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2178,7 +2178,7 @@ window.WineLensData = {
   "51163": {
     "name": "Congy",
     "area": "Val du Petit Morin",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2194,7 +2194,7 @@ window.WineLensData = {
   "51171": {
     "name": "Cormicy",
     "area": "Massif de Saint-Thierry",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2210,7 +2210,7 @@ window.WineLensData = {
   "51172": {
     "name": "Cormontreuil",
     "area": "Grande Montagne de Reims",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2226,7 +2226,7 @@ window.WineLensData = {
   "51173": {
     "name": "Cormoyeux",
     "area": "Vallée de la Marne Rive Droite",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2242,7 +2242,7 @@ window.WineLensData = {
   "51177": {
     "name": "Coulommes-la-Montagne",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2258,7 +2258,7 @@ window.WineLensData = {
   "51181": {
     "name": "Courcelles-Sapicourt",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2274,7 +2274,7 @@ window.WineLensData = {
   "51186": {
     "name": "Courjeonnet",
     "area": "Val du Petit Morin",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2290,7 +2290,7 @@ window.WineLensData = {
   "51188": {
     "name": "Courmas",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2306,7 +2306,7 @@ window.WineLensData = {
   "51190": {
     "name": "Courtagnon",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2322,7 +2322,7 @@ window.WineLensData = {
   "51192": {
     "name": "Courthiézy",
     "area": "Vallée de la Marne Rive Gauche",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2338,7 +2338,7 @@ window.WineLensData = {
   "51194": {
     "name": "Courville",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2354,7 +2354,7 @@ window.WineLensData = {
   "51195": {
     "name": "Couvrot",
     "area": "Vitryat",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2370,7 +2370,7 @@ window.WineLensData = {
   "51196": {
     "name": "Cramant",
     "area": "Côte des Blancs",
-    "info": "Cramant est installé sur le flanc de la Côte des Blancs face à la plaine champenoise. Le village est particulièrement associé aux Champagnes blanc de blancs issus de Chardonnay.",
+    "info": "Cramant est particulièrement associé aux Champagnes blanc de blancs issus de Chardonnay.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2386,7 +2386,7 @@ window.WineLensData = {
   "51198": {
     "name": "Crugny",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2402,7 +2402,7 @@ window.WineLensData = {
   "51199": {
     "name": "Cuchery",
     "area": "Vallée de la Marne Rive Droite",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2418,7 +2418,7 @@ window.WineLensData = {
   "51200": {
     "name": "Cuis",
     "area": "Côte des Blancs",
-    "info": "Cuis est accroché au versant nord de la Côte des Blancs, juste au-dessus d'Épernay. Son implantation en hauteur offre une vue très ouverte sur la vallée et la plaine champenoise.",
+    "info": "Cuis est installé sur le versant nord de la Côte des Blancs, au-dessus d’Épernay.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2434,7 +2434,7 @@ window.WineLensData = {
   "51201": {
     "name": "Cuisles",
     "area": "Vallée de la Marne Rive Droite",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2450,7 +2450,7 @@ window.WineLensData = {
   "51202": {
     "name": "Cumières",
     "area": "Grande Vallée de la Marne",
-    "info": "Cumières s'étire directement le long de la Marne au pied des coteaux. Le village conserve une tradition de vins rouges et rosés tranquilles en plus de la production de Champagne.",
+    "info": "Cumières conserve une tradition de vins rouges et rosés tranquilles en plus du Champagne.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2466,7 +2466,7 @@ window.WineLensData = {
   "51204": {
     "name": "Damery",
     "area": "Vallée de la Marne Rive Droite",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2482,7 +2482,7 @@ window.WineLensData = {
   "51210": {
     "name": "Dizy",
     "area": "Grande Vallée de la Marne",
-    "info": "Dizy occupe un carrefour entre Épernay, Aÿ et Hautvillers. Son territoire relie ainsi la vallée de la Marne aux premiers reliefs de la Montagne de Reims.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2498,7 +2498,7 @@ window.WineLensData = {
   "51217": {
     "name": "Dormans",
     "area": "Vallée de la Marne Rive Gauche",
-    "info": "Dormans est marqué par le Mémorial des batailles de la Marne, édifié dans le parc du château en souvenir des combats de 1914 et 1918.",
+    "info": "Dormans abrite le Mémorial des batailles de la Marne, consacré aux combats de 1914 et 1918.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2514,7 +2514,7 @@ window.WineLensData = {
   "51218": {
     "name": "Val-de-Vière",
     "area": "Vitryat",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2530,7 +2530,7 @@ window.WineLensData = {
   "51225": {
     "name": "Écueil",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2546,7 +2546,7 @@ window.WineLensData = {
   "51230": {
     "name": "Épernay",
     "area": "Coteaux Sud d'Épernay",
-    "info": "Épernay est la capitale économique historique du Champagne. Sous l'avenue de Champagne et les quartiers voisins s'étend un immense réseau de caves creusées dans la craie, utilisé par de nombreuses grandes maisons.",
+    "info": "L’avenue de Champagne d’Épernay surmonte un important réseau de caves utilisé par de grandes maisons.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2562,7 +2562,7 @@ window.WineLensData = {
   "51238": {
     "name": "Étoges",
     "area": "Val du Petit Morin",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2578,7 +2578,7 @@ window.WineLensData = {
   "51239": {
     "name": "Étréchy",
     "area": "Val du Petit Morin",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2594,7 +2594,7 @@ window.WineLensData = {
   "51245": {
     "name": "Faverolles-et-Coëmy",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2610,7 +2610,7 @@ window.WineLensData = {
   "51247": {
     "name": "Fèrebrianges",
     "area": "Val du Petit Morin",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2626,7 +2626,7 @@ window.WineLensData = {
   "51249": {
     "name": "Festigny",
     "area": "Vallée de la Marne Rive Gauche",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2642,7 +2642,7 @@ window.WineLensData = {
   "51252": {
     "name": "Fleury-la-Rivière",
     "area": "Vallée de la Marne Rive Droite",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2658,7 +2658,7 @@ window.WineLensData = {
   "51254": {
     "name": "Fontaine-Denis-Nuisy",
     "area": "Sézannais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2674,7 +2674,7 @@ window.WineLensData = {
   "51256": {
     "name": "Fontaine-sur-Ay",
     "area": "Grande Montagne de Reims",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2690,7 +2690,7 @@ window.WineLensData = {
   "51266": {
     "name": "Germaine",
     "area": "Grande Montagne de Reims",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2706,7 +2706,7 @@ window.WineLensData = {
   "51267": {
     "name": "Germigny",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2722,7 +2722,7 @@ window.WineLensData = {
   "51273": {
     "name": "Givry-lès-Loisy",
     "area": "Val du Petit Morin",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2738,7 +2738,7 @@ window.WineLensData = {
   "51275": {
     "name": "Glannes",
     "area": "Vitryat",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2754,7 +2754,7 @@ window.WineLensData = {
   "51281": {
     "name": "Grauves",
     "area": "Côte des Blancs",
-    "info": "Grauves est installé dans une cuvette entaillant la Côte des Blancs, configuration différente des villages alignés sur le versant principal. Cette topographie donne au vignoble plusieurs orientations.",
+    "info": "Grauves est installé dans une cuvette qui entaille la Côte des Blancs.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2770,7 +2770,7 @@ window.WineLensData = {
   "51282": {
     "name": "Gueux",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2786,7 +2786,7 @@ window.WineLensData = {
   "51287": {
     "name": "Hautvillers",
     "area": "Grande Vallée de la Marne",
-    "info": "Le village est indissociable de l'abbaye bénédictine où vécut Dom Pierre Pérignon. Ses rues en pente et leurs nombreuses enseignes en fer forgé en font aussi l'un des villages les plus reconnaissables du vignoble.",
+    "info": "Hautvillers abrite l’abbaye bénédictine où vécut Dom Pierre Pérignon.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2802,7 +2802,7 @@ window.WineLensData = {
   "51291": {
     "name": "Hermonville",
     "area": "Massif de Saint-Thierry",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2818,7 +2818,7 @@ window.WineLensData = {
   "51294": {
     "name": "Hourges",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2834,7 +2834,7 @@ window.WineLensData = {
   "51298": {
     "name": "Igny-Comblizy",
     "area": "Vallée de la Marne Rive Gauche",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2850,7 +2850,7 @@ window.WineLensData = {
   "51305": {
     "name": "Janvry",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2866,7 +2866,7 @@ window.WineLensData = {
   "51308": {
     "name": "Jonchery-sur-Vesle",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2882,7 +2882,7 @@ window.WineLensData = {
   "51309": {
     "name": "Jonquery",
     "area": "Vallée de la Marne Rive Droite",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2898,7 +2898,7 @@ window.WineLensData = {
   "51314": {
     "name": "Lagery",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2914,7 +2914,7 @@ window.WineLensData = {
   "51320": {
     "name": "Leuvrigny",
     "area": "Vallée de la Marne Rive Gauche",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2930,7 +2930,7 @@ window.WineLensData = {
   "51321": {
     "name": "Lhéry",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2946,7 +2946,7 @@ window.WineLensData = {
   "51325": {
     "name": "Lisse-en-Champagne",
     "area": "Vitryat",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2962,7 +2962,7 @@ window.WineLensData = {
   "51327": {
     "name": "Loisy-en-Brie",
     "area": "Val du Petit Morin",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2978,7 +2978,7 @@ window.WineLensData = {
   "51328": {
     "name": "Loisy-sur-Marne",
     "area": "Vitryat",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -2994,7 +2994,7 @@ window.WineLensData = {
   "51333": {
     "name": "Ludes",
     "area": "Grande Montagne de Reims",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3010,7 +3010,7 @@ window.WineLensData = {
   "51338": {
     "name": "Mailly-Champagne",
     "area": "Grande Montagne de Reims",
-    "info": "Le village s'étire au pied de la forêt de la Montagne de Reims et possède une longue histoire coopérative, incarnée par la maison Mailly Grand Cru fondée par des vignerons du village.",
+    "info": "Mailly-Champagne possède une longue tradition coopérative, notamment avec la maison Mailly Grand Cru.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3026,7 +3026,7 @@ window.WineLensData = {
   "51342": {
     "name": "Mancy",
     "area": "Coteaux Sud d'Épernay",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3042,7 +3042,7 @@ window.WineLensData = {
   "51344": {
     "name": "Mardeuil",
     "area": "Vallée de la Marne Rive Gauche",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3058,7 +3058,7 @@ window.WineLensData = {
   "51346": {
     "name": "Mareuil-le-Port",
     "area": "Vallée de la Marne Rive Gauche",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3074,7 +3074,7 @@ window.WineLensData = {
   "51348": {
     "name": "Marfaux",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3090,7 +3090,7 @@ window.WineLensData = {
   "51362": {
     "name": "Merfy",
     "area": "Massif de Saint-Thierry",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3106,7 +3106,7 @@ window.WineLensData = {
   "51363": {
     "name": "Merlaut",
     "area": "Vitryat",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3122,7 +3122,7 @@ window.WineLensData = {
   "51364": {
     "name": "Méry-Prémecy",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3138,7 +3138,7 @@ window.WineLensData = {
   "51365": {
     "name": "Les Mesneux",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3154,7 +3154,7 @@ window.WineLensData = {
   "51367": {
     "name": "Le Mesnil-sur-Oger",
     "area": "Côte des Blancs",
-    "info": "Le Mesnil-sur-Oger est un village de la Côte des Blancs associé aux Champagnes issus de Chardonnay.",
+    "info": "Le Mesnil-sur-Oger est particulièrement associé aux Champagnes issus de Chardonnay.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3170,7 +3170,7 @@ window.WineLensData = {
   "51374": {
     "name": "Mondement-Montgivroux",
     "area": "Val du Petit Morin",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3186,7 +3186,7 @@ window.WineLensData = {
   "51375": {
     "name": "Montbré",
     "area": "Grande Montagne de Reims",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3202,7 +3202,7 @@ window.WineLensData = {
   "51376": {
     "name": "Montgenost",
     "area": "Sézannais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3218,7 +3218,7 @@ window.WineLensData = {
   "51378": {
     "name": "Monthelon",
     "area": "Coteaux Sud d'Épernay",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3234,7 +3234,7 @@ window.WineLensData = {
   "51379": {
     "name": "Montigny-sur-Vesle",
     "area": "Massif de Saint-Thierry",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3250,7 +3250,7 @@ window.WineLensData = {
   "51384": {
     "name": "Morangis",
     "area": "Coteaux Sud d'Épernay",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3266,7 +3266,7 @@ window.WineLensData = {
   "51387": {
     "name": "Moslins",
     "area": "Coteaux Sud d'Épernay",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3282,7 +3282,7 @@ window.WineLensData = {
   "51390": {
     "name": "Moussy",
     "area": "Coteaux Sud d'Épernay",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3298,7 +3298,7 @@ window.WineLensData = {
   "51392": {
     "name": "Mutigny",
     "area": "Grande Vallée de la Marne",
-    "info": "Mutigny est perché sur un promontoire dominant la vallée de la Marne. Son belvédère offre une lecture particulièrement claire du paysage viticole autour d'Aÿ et d'Épernay.",
+    "info": "Mutigny possède un belvédère dominant la vallée de la Marne.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3314,7 +3314,7 @@ window.WineLensData = {
   "51393": {
     "name": "Nanteuil-la-Forêt",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3330,7 +3330,7 @@ window.WineLensData = {
   "51396": {
     "name": "Nesle-le-Repons",
     "area": "Vallée de la Marne Rive Gauche",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3346,7 +3346,7 @@ window.WineLensData = {
   "51398": {
     "name": "La Neuville-aux-Larris",
     "area": "Vallée de la Marne Rive Droite",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3362,7 +3362,7 @@ window.WineLensData = {
   "51403": {
     "name": "Nogent-l'Abbesse",
     "area": "Monts de Berru",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3378,7 +3378,7 @@ window.WineLensData = {
   "51410": {
     "name": "Œuilly",
     "area": "Vallée de la Marne Rive Gauche",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3394,7 +3394,7 @@ window.WineLensData = {
   "51413": {
     "name": "Oiry",
     "area": "Côte des Blancs",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3410,7 +3410,7 @@ window.WineLensData = {
   "51414": {
     "name": "Olizy",
     "area": "Vallée de la Marne Rive Droite",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3426,7 +3426,7 @@ window.WineLensData = {
   "51418": {
     "name": "Ormes",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3442,7 +3442,7 @@ window.WineLensData = {
   "51421": {
     "name": "Oyes",
     "area": "Val du Petit Morin",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3458,7 +3458,7 @@ window.WineLensData = {
   "51422": {
     "name": "Pargny-lès-Reims",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3474,7 +3474,7 @@ window.WineLensData = {
   "51425": {
     "name": "Passy-Grigny",
     "area": "Vallée de la Marne Rive Droite",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3490,7 +3490,7 @@ window.WineLensData = {
   "51429": {
     "name": "Pévy",
     "area": "Massif de Saint-Thierry",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3506,7 +3506,7 @@ window.WineLensData = {
   "51431": {
     "name": "Pierry",
     "area": "Coteaux Sud d'Épernay",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3522,7 +3522,7 @@ window.WineLensData = {
   "51437": {
     "name": "Poilly",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3538,7 +3538,7 @@ window.WineLensData = {
   "51440": {
     "name": "Pontfaverger-Moronvilliers",
     "area": "Monts de Berru",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3554,7 +3554,7 @@ window.WineLensData = {
   "51444": {
     "name": "Pouillon",
     "area": "Massif de Saint-Thierry",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3570,7 +3570,7 @@ window.WineLensData = {
   "51445": {
     "name": "Pourcy",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3586,7 +3586,7 @@ window.WineLensData = {
   "51450": {
     "name": "Puisieulx",
     "area": "Grande Montagne de Reims",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3602,7 +3602,7 @@ window.WineLensData = {
   "51454": {
     "name": "Reims",
     "area": "Vesle et Ardre",
-    "info": "Reims associe patrimoine viticole et histoire de France : sa cathédrale fut le lieu traditionnel du sacre des rois, tandis que de nombreuses maisons de Champagne exploitent les crayères antiques et médiévales sous la ville.",
+    "info": "Reims abrite des crayères utilisées comme caves par plusieurs maisons de Champagne.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3618,7 +3618,7 @@ window.WineLensData = {
   "51457": {
     "name": "Reuil",
     "area": "Vallée de la Marne Rive Droite",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3634,7 +3634,7 @@ window.WineLensData = {
   "51461": {
     "name": "Rilly-la-Montagne",
     "area": "Grande Montagne de Reims",
-    "info": "Rilly-la-Montagne est l'un des villages les plus importants du versant nord et possède une gare sur l'axe Reims–Épernay, particularité qui a longtemps facilité les échanges au cœur du vignoble.",
+    "info": "Rilly-la-Montagne possède une gare sur la ligne Reims–Épernay.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3650,7 +3650,7 @@ window.WineLensData = {
   "51465": {
     "name": "Romery",
     "area": "Vallée de la Marne Rive Droite",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3666,7 +3666,7 @@ window.WineLensData = {
   "51468": {
     "name": "Rosnay",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3682,7 +3682,7 @@ window.WineLensData = {
   "51471": {
     "name": "Sacy",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3698,7 +3698,7 @@ window.WineLensData = {
   "51472": {
     "name": "Saint-Amand-sur-Fion",
     "area": "Vitryat",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3714,7 +3714,7 @@ window.WineLensData = {
   "51479": {
     "name": "Saint-Euphraise-et-Clairizet",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3730,7 +3730,7 @@ window.WineLensData = {
   "51480": {
     "name": "Sainte-Gemme",
     "area": "Vallée de la Marne Rive Droite",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3746,7 +3746,7 @@ window.WineLensData = {
   "51484": {
     "name": "Saint-Gilles",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3762,7 +3762,7 @@ window.WineLensData = {
   "51496": {
     "name": "Saint-Lumier-en-Champagne",
     "area": "Vitryat",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3778,7 +3778,7 @@ window.WineLensData = {
   "51518": {
     "name": "Saint-Thierry",
     "area": "Massif de Saint-Thierry",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3794,7 +3794,7 @@ window.WineLensData = {
   "51523": {
     "name": "Sarcy",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3810,7 +3810,7 @@ window.WineLensData = {
   "51526": {
     "name": "Saudoy",
     "area": "Sézannais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3826,7 +3826,7 @@ window.WineLensData = {
   "51527": {
     "name": "Savigny-sur-Ardres",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3842,7 +3842,7 @@ window.WineLensData = {
   "51529": {
     "name": "Selles",
     "area": "Monts de Berru",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3858,7 +3858,7 @@ window.WineLensData = {
   "51532": {
     "name": "Sermiers",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3874,7 +3874,7 @@ window.WineLensData = {
   "51534": {
     "name": "Serzy-et-Prin",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3890,7 +3890,7 @@ window.WineLensData = {
   "51535": {
     "name": "Sézanne",
     "area": "Sézannais",
-    "info": "Sézanne possède un centre ancien remarquablement conservé, avec mails plantés, maisons à pans de bois et ruelles autour de l'église Saint-Denis. Le vignoble forme une ceinture de coteaux autour de la ville.",
+    "info": "Sézanne conserve un centre ancien avec maisons à pans de bois autour de l’église Saint-Denis.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3906,7 +3906,7 @@ window.WineLensData = {
   "51536": {
     "name": "Sillery",
     "area": "Grande Montagne de Reims",
-    "info": "Sillery a donné son nom, pendant plusieurs siècles, à des vins tranquilles de Champagne particulièrement réputés. Cette renommée historique précède largement l'essor moderne du Champagne effervescent.",
+    "info": "Sillery a longtemps donné son nom à des vins tranquilles de Champagne réputés.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3922,7 +3922,7 @@ window.WineLensData = {
   "51558": {
     "name": "Soulières",
     "area": "Val du Petit Morin",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3938,7 +3938,7 @@ window.WineLensData = {
   "51562": {
     "name": "Taissy",
     "area": "Grande Montagne de Reims",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3954,7 +3954,7 @@ window.WineLensData = {
   "51563": {
     "name": "Talus-Saint-Prix",
     "area": "Val du Petit Morin",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3970,7 +3970,7 @@ window.WineLensData = {
   "51568": {
     "name": "Thil",
     "area": "Massif de Saint-Thierry",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -3986,7 +3986,7 @@ window.WineLensData = {
   "51576": {
     "name": "Tours-sur-Marne",
     "area": "Grande Montagne de Reims",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4002,7 +4002,7 @@ window.WineLensData = {
   "51577": {
     "name": "Tramery",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4018,7 +4018,7 @@ window.WineLensData = {
   "51580": {
     "name": "Trépail",
     "area": "Grande Montagne de Reims",
-    "info": "Trépail appartient à la « Perle Blanche », secteur singulier de la Montagne de Reims où le Chardonnay prend nettement le dessus sur le Pinot Noir.",
+    "info": "Trépail se distingue dans la Montagne de Reims par la forte présence du Chardonnay.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4034,7 +4034,7 @@ window.WineLensData = {
   "51581": {
     "name": "Treslon",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4050,7 +4050,7 @@ window.WineLensData = {
   "51582": {
     "name": "Trigny",
     "area": "Massif de Saint-Thierry",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4066,7 +4066,7 @@ window.WineLensData = {
   "51584": {
     "name": "Trois-Puits",
     "area": "Grande Montagne de Reims",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4082,7 +4082,7 @@ window.WineLensData = {
   "51585": {
     "name": "Troissy",
     "area": "Vallée de la Marne Rive Gauche",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4098,7 +4098,7 @@ window.WineLensData = {
   "51586": {
     "name": "Unchair",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4114,7 +4114,7 @@ window.WineLensData = {
   "51589": {
     "name": "Vanault-le-Châtel",
     "area": "Vitryat",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4130,7 +4130,7 @@ window.WineLensData = {
   "51591": {
     "name": "Vandeuil",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4146,7 +4146,7 @@ window.WineLensData = {
   "51592": {
     "name": "Vandières",
     "area": "Vallée de la Marne Rive Droite",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4162,7 +4162,7 @@ window.WineLensData = {
   "51597": {
     "name": "Vauciennes",
     "area": "Vallée de la Marne Rive Gauche",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4178,7 +4178,7 @@ window.WineLensData = {
   "51599": {
     "name": "Vaudemange",
     "area": "Grande Montagne de Reims",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4194,7 +4194,7 @@ window.WineLensData = {
   "51601": {
     "name": "Vavray-le-Grand",
     "area": "Vitryat",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4210,7 +4210,7 @@ window.WineLensData = {
   "51602": {
     "name": "Vavray-le-Petit",
     "area": "Vitryat",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4226,7 +4226,7 @@ window.WineLensData = {
   "51605": {
     "name": "Venteuil",
     "area": "Vallée de la Marne Rive Droite",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4242,7 +4242,7 @@ window.WineLensData = {
   "51609": {
     "name": "Verneuil",
     "area": "Vallée de la Marne Rive Droite",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4258,7 +4258,7 @@ window.WineLensData = {
   "51611": {
     "name": "Vert-Toulon",
     "area": "Val du Petit Morin",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4274,7 +4274,7 @@ window.WineLensData = {
   "51612": {
     "name": "Blancs-Coteaux",
     "area": "Côte des Blancs",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4290,7 +4290,7 @@ window.WineLensData = {
   "51613": {
     "name": "Verzenay",
     "area": "Grande Montagne de Reims",
-    "info": "Le phare de Verzenay, construit au début du XXe siècle au milieu des vignes, est devenu l'un des symboles les plus inattendus de la Champagne. Il abrite aujourd'hui le Musée de la Vigne.",
+    "info": "Le phare de Verzenay, construit au milieu des vignes, abrite aujourd’hui le Musée de la Vigne.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4306,7 +4306,7 @@ window.WineLensData = {
   "51614": {
     "name": "Verzy",
     "area": "Grande Montagne de Reims",
-    "info": "Verzy se trouve à proximité immédiate des Faux de Verzy, célèbres hêtres tortillards de la forêt de la Montagne de Reims. Cette singularité naturelle donne au village une identité qui dépasse largement le seul vignoble.",
+    "info": "Verzy se trouve à proximité des Faux de Verzy, célèbres hêtres tortillards.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4322,7 +4322,7 @@ window.WineLensData = {
   "51622": {
     "name": "Ville-Dommange",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4338,7 +4338,7 @@ window.WineLensData = {
   "51624": {
     "name": "Ville-en-Tardenois",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4354,7 +4354,7 @@ window.WineLensData = {
   "51627": {
     "name": "Villeneuve-Renneville-Chevigny",
     "area": "Côte des Blancs",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4370,7 +4370,7 @@ window.WineLensData = {
   "51629": {
     "name": "Villers-Allerand",
     "area": "Grande Montagne de Reims",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4386,7 +4386,7 @@ window.WineLensData = {
   "51631": {
     "name": "Villers-aux-Nœuds",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4402,7 +4402,7 @@ window.WineLensData = {
   "51633": {
     "name": "Villers-Franqueux",
     "area": "Massif de Saint-Thierry",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4418,7 +4418,7 @@ window.WineLensData = {
   "51636": {
     "name": "Villers-Marmery",
     "area": "Grande Montagne de Reims",
-    "info": "Villers-Marmery forme avec Trépail le cœur de la « Perle Blanche », enclave de Chardonnay sur une Montagne de Reims surtout connue pour ses Pinots.",
+    "info": "Villers-Marmery se distingue dans la Montagne de Reims par la forte présence du Chardonnay.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4434,7 +4434,7 @@ window.WineLensData = {
   "51637": {
     "name": "Villers-sous-Châtillon",
     "area": "Vallée de la Marne Rive Droite",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4450,7 +4450,7 @@ window.WineLensData = {
   "51641": {
     "name": "Villevenard",
     "area": "Val du Petit Morin",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4466,7 +4466,7 @@ window.WineLensData = {
   "51643": {
     "name": "Vinay",
     "area": "Coteaux Sud d'Épernay",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4482,7 +4482,7 @@ window.WineLensData = {
   "51644": {
     "name": "Vincelles",
     "area": "Vallée de la Marne Rive Droite",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4498,7 +4498,7 @@ window.WineLensData = {
   "51645": {
     "name": "Vindey",
     "area": "Sézannais",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4514,7 +4514,7 @@ window.WineLensData = {
   "51647": {
     "name": "Vitry-en-Perthois",
     "area": "Vitryat",
-    "info": "Vitry-en-Perthois se trouve au pied du mont de Fourche, emplacement de l'ancienne Vitry-en-Perthois détruite au XVIe siècle. La ville voisine de Vitry-le-François fut fondée après cet épisode.",
+    "info": "L’ancienne Vitry-en-Perthois fut détruite au XVIe siècle avant la fondation de Vitry-le-François.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4530,7 +4530,7 @@ window.WineLensData = {
   "51657": {
     "name": "Vrigny",
     "area": "Vesle et Ardre",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4546,7 +4546,7 @@ window.WineLensData = {
   "52140": {
     "name": "Colombey les Deux églises",
     "area": "Bar-sur-Aubois",
-    "info": "Colombey-les-Deux-Églises est surtout connu comme le village de Charles de Gaulle et pour le mémorial qui domine le paysage. La vigne champenoise y constitue une activité beaucoup plus discrète.",
+    "info": "Colombey-les-Deux-Églises est notamment connu pour Charles de Gaulle et son mémorial.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4562,7 +4562,7 @@ window.WineLensData = {
   "52426": {
     "name": "Rizaucourt-Buchey",
     "area": "Bar-sur-Aubois",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4578,7 +4578,7 @@ window.WineLensData = {
   "77117": {
     "name": "Citry",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4594,7 +4594,7 @@ window.WineLensData = {
   "77331": {
     "name": "Nanteuil-sur-Marne",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4610,7 +4610,7 @@ window.WineLensData = {
   "77397": {
     "name": "Saâcy-sur-Marne",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4626,7 +4626,7 @@ window.WineLensData = {
   "02042": {
     "name": "Azy-sur-Marne",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4642,7 +4642,7 @@ window.WineLensData = {
   "02084": {
     "name": "Bézu-le-Guéry",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4658,7 +4658,7 @@ window.WineLensData = {
   "02094": {
     "name": "Blesmes",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4674,7 +4674,7 @@ window.WineLensData = {
   "02098": {
     "name": "Bonneil",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4690,7 +4690,7 @@ window.WineLensData = {
   "02114": {
     "name": "Brasles",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4706,7 +4706,7 @@ window.WineLensData = {
   "02146": {
     "name": "Celles-lès-Condé",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4722,7 +4722,7 @@ window.WineLensData = {
   "02163": {
     "name": "Charly-sur-Marne",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4738,7 +4738,7 @@ window.WineLensData = {
   "02166": {
     "name": "Chartèves",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4754,7 +4754,7 @@ window.WineLensData = {
   "02168": {
     "name": "Château-Thierry",
     "area": "Vallée de la Marne Ouest",
-    "info": "Château-Thierry est la principale ville de la partie occidentale de la Vallée de la Marne. Son château médiéval domine la Marne et rappelle que cette partie de la Champagne possède une identité historique distincte des villages viticoles autour de Reims et d'Épernay.",
+    "info": "Le château médiéval de Château-Thierry domine la vallée de la Marne.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4770,7 +4770,7 @@ window.WineLensData = {
   "02186": {
     "name": "Chézy-sur-Marne",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4786,7 +4786,7 @@ window.WineLensData = {
   "02187": {
     "name": "Chierry",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4802,7 +4802,7 @@ window.WineLensData = {
   "02213": {
     "name": "Connigis",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4818,7 +4818,7 @@ window.WineLensData = {
   "02228": {
     "name": "Courtemont-Varennes",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4834,7 +4834,7 @@ window.WineLensData = {
   "02239": {
     "name": "Crézancy",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4850,7 +4850,7 @@ window.WineLensData = {
   "02242": {
     "name": "Crouttes-sur-Marne",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4866,7 +4866,7 @@ window.WineLensData = {
   "02268": {
     "name": "Domptin",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4882,7 +4882,7 @@ window.WineLensData = {
   "02290": {
     "name": "Essômes-sur-Marne",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4898,7 +4898,7 @@ window.WineLensData = {
   "02292": {
     "name": "Étampes-sur-Marne",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4914,7 +4914,7 @@ window.WineLensData = {
   "02328": {
     "name": "Fossoy",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4930,7 +4930,7 @@ window.WineLensData = {
   "02347": {
     "name": "Gland",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4946,7 +4946,7 @@ window.WineLensData = {
   "02389": {
     "name": "Jaulgonne",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4962,7 +4962,7 @@ window.WineLensData = {
   "02053": {
     "name": "Vallées-en-Champagne",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4978,7 +4978,7 @@ window.WineLensData = {
   "02484": {
     "name": "Mézy-Moulins",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -4994,7 +4994,7 @@ window.WineLensData = {
   "02524": {
     "name": "Mont-Saint-Père",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -5010,7 +5010,7 @@ window.WineLensData = {
   "02510": {
     "name": "Monthurel",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -5026,7 +5026,7 @@ window.WineLensData = {
   "02521": {
     "name": "Montreuil-aux-Lions",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -5042,7 +5042,7 @@ window.WineLensData = {
   "02540": {
     "name": "Nesles-la-Montagne",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -5058,7 +5058,7 @@ window.WineLensData = {
   "02555": {
     "name": "Nogent-l'Artaud",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -5074,7 +5074,7 @@ window.WineLensData = {
   "02554": {
     "name": "Nogentel",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -5090,7 +5090,7 @@ window.WineLensData = {
   "02596": {
     "name": "Pavant",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -5106,7 +5106,7 @@ window.WineLensData = {
   "02645": {
     "name": "Reuilly-Sauvigny",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -5122,7 +5122,7 @@ window.WineLensData = {
   "02653": {
     "name": "Romeny-sur-Marne",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -5138,7 +5138,7 @@ window.WineLensData = {
   "02701": {
     "name": "Saulchery",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
@@ -5154,7 +5154,7 @@ window.WineLensData = {
   "02818": {
     "name": "Villiers-Saint-Denis",
     "area": "Vallée de la Marne Ouest",
-    "info": "Petit village viticole rural, nous n’avons pas d’anecdote documentée à ce jour.",
+    "info": "Petit village viticole rural. Nous n’avons pas d’anecdote particulière à signaler.",
     "grapes": {
       "status": "unverified",
       "values": {
