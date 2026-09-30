@@ -57,7 +57,13 @@
         row.append(label,bar,amount);list.appendChild(row);
       });
     }
-    $('producerContent').textContent='Nous n’avons pas encore de fiche producteur pour cette zone.';
+    const producers=$('producerContent');
+    if(item.name==='Le Mesnil-sur-Oger'){
+      producers.replaceChildren();
+      const p=document.createElement('p');p.textContent='Expérience parcellaire disponible : ';
+      const a=document.createElement('a');a.href='./clos-du-mesnil.html';a.textContent='Explorer le Clos du Mesnil';a.className='source-link';
+      p.appendChild(a);producers.appendChild(p);
+    }else producers.textContent='Nous n’avons pas encore de fiche producteur pour cette zone.';
     $('selectionStatus').textContent=item.kind+' sélectionnée : '+item.name;
   }
   function select(id,zoom){
