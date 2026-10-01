@@ -1,8 +1,8 @@
-name: Experimental preview
+name: Publish production and experimental preview
 
 on:
   push:
-    branches: [experiments]
+    branches: [main, experiments]
   workflow_dispatch:
 
 permissions:
@@ -11,7 +11,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages-experiments
+  group: github-pages
   cancel-in-progress: true
 
 jobs:
@@ -21,16 +21,28 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout production
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: site
+      - name: Remove repository-only files from published site
+        run: rm -rf site/.git site/.github site/preview
       - name: Checkout experiments
         uses: actions/checkout@v4
         with:
           ref: experiments
+          path: experimental
+      - name: Install experimental preview
+        run: |
+          mkdir -p site/preview
+          rsync -a --exclude='.git' --exclude='.github' experimental/ site/preview/
       - name: Configure Pages
         uses: actions/configure-pages@v5
-      - name: Upload site
+      - name: Upload combined site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
-      - name: Deploy experimental site
+          path: site
+      - name: Deploy combined site
         id: deployment
         uses: actions/deploy-pages@v4
