@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WineLens — Clos du Mesnil</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+html,body,#map{height:100%;margin:0} body{font-family:system-ui,-apple-system,sans-serif;background:#f5f3ed}
+.back{position:absolute;z-index:1000;top:16px;left:56px;background:#fff;padding:10px 14px;border-radius:8px;text-decoration:none;color:#17231c;box-shadow:0 2px 12px #0002;font-weight:700}
+.panel{position:absolute;z-index:1000;left:16px;bottom:18px;max-width:330px;background:#fff;padding:16px 18px;border-radius:10px;box-shadow:0 4px 20px #0002}
+.panel small{font-weight:800;letter-spacing:.1em;color:#1f6fd1}.panel h1{font-size:22px;margin:5px 0 7px}.panel p{font-size:14px;line-height:1.45;margin:0}.note{margin-top:8px!important;font-size:11px!important;color:#68716c}
+.leaflet-container{background:#e8ece8}.clos-label{background:#fff;border:0;box-shadow:0 1px 5px #0003;font-weight:800;color:#174f98}
+@media(max-width:600px){.back{left:50px;top:10px}.panel{left:10px;right:10px;bottom:10px;max-width:none}}
+</style>
+</head>
+<body>
+<a class="back" href="./">← Champagne Map</a><div id="map"></div>
+<div class="panel"><small>PARCELLE · LE MESNIL-SUR-OGER</small><h1>Clos du Mesnil</h1><p>Clos de 1,84 ha de Chardonnay appartenant à Krug, ceint de murs et situé au cœur du village.</p><p class="note">Prototype expérimental : le contour affiché sert à tester l’expérience cartographique et ne constitue pas une délimitation cadastrale officielle.</p></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const villageBounds=L.latLngBounds([48.9390,4.0110],[48.9535,4.0335]);
+const map=L.map('map',{maxBounds:villageBounds,maxBoundsViscosity:1,minZoom:15,maxZoom:19,zoomAnimation:false});
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OpenStreetMap',maxZoom:19}).addTo(map);
+// Prototype geometry near Rue Pasteur / Allée Clos du Mesnil. Replace with surveyed/cadastral geometry before production use.
+const clos=[[48.94795,4.01915],[48.94834,4.01945],[48.94820,4.02042],[48.94777,4.02052],[48.94747,4.01988],[48.94758,4.01930]];
+const parcel=L.polygon(clos,{color:'#1f6fd1',weight:4,fillColor:'#3388ff',fillOpacity:.30}).addTo(map);
+parcel.bindTooltip('Clos du Mesnil',{permanent:true,direction:'center',className:'clos-label'});
+map.fitBounds(parcel.getBounds(),{padding:[80,80],maxZoom:18});
+map.setMaxBounds(villageBounds);
+</script>
+</body></html>
